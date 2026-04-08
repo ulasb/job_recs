@@ -562,5 +562,53 @@
     "company_key": "sony",
     "is_target_company": true,
     "date_found": "2026-04-06"
+  },
+  {
+    "ats_id": "8287373002",
+    "title": "Director, Enterprise - Retail & CPG",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287373002",
+    "updated_at": "2026-04-07",
+    "company": "Databricks",
+    "company_key": "databricks",
+    "is_target_company": false,
+    "date_found": "2026-04-08"
+  },
+  {
+    "ats_id": "8287372002",
+    "title": "Director, Enterprise - Retail & CPG, m/f/d",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287372002",
+    "updated_at": "2026-04-07",
+    "company": "Databricks",
+    "company_key": "databricks",
+    "is_target_company": false,
+    "date_found": "2026-04-08"
+  },
+  {
+    "ats_id": "8285493002",
+    "title": "Director, Enterprise - Retail & CPG, m/f/d",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8285493002",
+    "updated_at": "2026-04-07",
+    "company": "Databricks",
+    "company_key": "databricks",
+    "is_target_company": false,
+    "date_found": "2026-04-08"
+  },
+  {
+    "ats_id": "7514534",
+    "title": "Director, User Research - Product Design",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.datadoghq.com/detail/7514534/?gh_jid=7514534",
+    "updated_at": "2026-04-01",
+    "company": "Datadog",
+    "company_key": "datadog",
+    "is_target_company": false,
+    "date_found": "2026-04-08"
   }
 ]

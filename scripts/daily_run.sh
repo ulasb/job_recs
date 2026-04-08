@@ -18,7 +18,9 @@ cd "$PROJECT_DIR"
 git pull --rebase origin main >> "$LOG_FILE" 2>&1 || true
 
 # Run Claude Code in print mode with the full pipeline
-claude -p "Run the daily job search pipeline. Read and follow .claude/commands/run.md.
+claude -p "Run the daily job search pipeline. Read and follow .claude/commands/search.md then .claude/commands/present.md.
+
+IMPORTANT: This is a non-interactive run. Do NOT ask for feedback or wait for user input. Complete all steps and save results automatically.
 
 Key reminders:
 - Read data/user_profile.md FIRST, especially Learned Preferences
@@ -29,9 +31,10 @@ Key reminders:
 - Use Indeed MCP for Indeed searches
 - Apply ALL hard filters from Learned Preferences before presenting
 - Deduplicate against data/seen_jobs.json
-- Save results to data/runs/$(date +%Y-%m-%d).md
+- Write the daily report to data/runs/$(date +%Y-%m-%d).md
 - Update data/seen_jobs.json with new jobs found
-- Commit and push changes to GitHub
+- Commit and push all changes to GitHub
+- Do NOT run the feedback step — the user will provide feedback separately
 - Quality over quantity: 0-3 well-vetted roles is fine" >> "$LOG_FILE" 2>&1
 
 echo "=== Daily job search completed at $(date) ===" >> "$LOG_FILE"
