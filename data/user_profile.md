@@ -114,7 +114,8 @@ _Updated automatically from job feedback._
 - **Takeaway**: Exclude roles that emphasize hands-on technical execution, require publications, or lead teams < 50 people. The user leads leaders, not individual contributors.
 
 ### Domain fit is narrow (round 2, 4/10 rejections)
-- **IN scope**: AI/ML strategy & leadership, software/product engineering, platform engineering, ads/monetization, consumer tech
+- **IN scope**: AI/ML strategy & leadership, software/product engineering, platform engineering, consumer tech, recommendation systems, personalization
+- **ADJACENT (cautious)**: Ads/monetization — Google experience was on the "Ads Understanding" (ML/quality/relevance) side, NOT the ad delivery/programmatic/monetization stack. Roles requiring deep ad-tech expertise (ad decisioning, insertion, measurement, programmatic buying) are a stretch. Disney VP Ads role was a pass for this reason.
 - **OUT of scope**: SRE, hardware/electrical engineering, data engineering (specifically), corporate IT/compliance, security engineering, systems engineering (hardware-adjacent)
 - Waymo SRE Director rejected — no SRE experience.
 - Waymo Systems Engineering rejected — closer to EE than CS.

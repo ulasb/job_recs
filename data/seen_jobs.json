@@ -235,8 +235,8 @@
     "salary": "",
     "summary": "Lead end-to-end engineering strategy for addressable, programmatic, and personalized advertising platforms at Disney streaming.",
     "relevance_score": 9.5,
-    "feedback": null,
-    "feedback_reason": null,
+    "feedback": "no",
+    "feedback_reason": "Largely good but pass — experience is adjacent to ads, not deep enough in ad delivery/programmatic/monetization that the role requires",
     "dedup_key": "disney|vp_software_engineering_addressable_advertising|glendale_ca"
   },
   {
@@ -251,8 +251,8 @@
     "salary": "$298,200-$399,900",
     "summary": "Lead data science and engineering teams for Disney+, Hulu, ESPN, ABC personalization.",
     "relevance_score": 8.5,
-    "feedback": null,
-    "feedback_reason": null,
+    "feedback": "no",
+    "feedback_reason": "Would have been perfect but role is no longer available (stale Dec 2024 posting)",
     "dedup_key": "disney|vp_engineering_personalization_recommendations|san_francisco_ca"
   },
   {
