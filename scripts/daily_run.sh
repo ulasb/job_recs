@@ -31,10 +31,11 @@ Key reminders:
 - Use Indeed MCP for Indeed searches
 - Apply ALL hard filters from Learned Preferences before presenting
 - Deduplicate against data/seen_jobs.json
+- VERIFY EVERY FINALIST: Before presenting any job, WebFetch its URL and check if it's still open. Drop any job where the page says closed/filled/expired/no longer accepting applications. This is mandatory.
 - Write the daily report to data/runs/$(date +%Y-%m-%d).md
 - Update data/seen_jobs.json with new jobs found
 - Commit and push all changes to GitHub
 - Do NOT run the feedback step — the user will provide feedback separately
-- Quality over quantity: 0-3 well-vetted roles is fine" >> "$LOG_FILE" 2>&1
+- Quality over quantity: 0-3 verified, open roles is fine" >> "$LOG_FILE" 2>&1
 
 echo "=== Daily job search completed at $(date) ===" >> "$LOG_FILE"

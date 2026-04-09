@@ -32,21 +32,30 @@ Deduplicate, rank, and present the best jobs from today's search.
 
 4. **Select top 10** jobs by relevance score.
 
-5. **Present to the user** in a clear markdown format:
+5. **Verify each finalist is still open** (CRITICAL — do not skip this step):
+   For each job that passed filtering and ranking, use WebFetch on its URL with this prompt:
+   `"Is this job still open and accepting applications? Look for any of these signals that it's closed: 'no longer accepting applications', 'this position has been filled', 'job no longer available', 'expired', 'closed', 'this role has been filled', 'removed', 'position closed', or any similar language. Also check if the page returns a 404 or redirects to a general careers page. Report: OPEN, CLOSED, or UNCERTAIN with the reason."`
+
+   - Drop any job marked CLOSED.
+   - For UNCERTAIN, include it but note the concern.
+   - This step is cheap — there are typically only 2-5 finalists.
+
+6. **Present to the user** in a clear markdown format:
    ```
    ## Top Jobs for YYYY-MM-DD
 
    ### 1. [Job Title](apply_url) — Company Name
    📍 Location | 💰 Salary | 🏢 Source
+   **Verified**: OPEN (checked via WebFetch)
    **Why this matches**: Brief explanation of relevance
    **Score**: X/10
 
    ---
    ```
 
-6. **Save the daily report** to `data/runs/YYYY-MM-DD.md`.
+7. **Save the daily report** to `data/runs/YYYY-MM-DD.md`.
 
-7. **Update seen_jobs.json**: Append ALL new jobs from today (not just top 10) to `data/seen_jobs.json` with `feedback: null`. This prevents them from appearing in future runs.
+8. **Update seen_jobs.json**: Append ALL new jobs from today (not just top 10) to `data/seen_jobs.json` with `feedback: null`. This prevents them from appearing in future runs.
 
 ## Hard Filters (updated 2026-04-06)
 
