@@ -146,3 +146,17 @@ _Updated after each run._
 3. Skip RemoteOK/Arbeitnow/Himalayas for executive searches
 4. Focus WebSearch on Glassdoor, LinkedIn snippets, and targeted job boards
 5. Add levels.fyi as a source for verifying comp ranges at target companies
+
+### 2026-04-09: Fourth run
+
+**Career Page Monitor**: Checked all 10 Greenhouse/Ashby companies. Only 1 new role: Datadog Director of Product Management (AI Observability) — PM not eng, filtered. Waymo Director of Engineering (Developer AI) from prior run is now closed.
+
+**JSearch**: 50 results across 5 queries. Massive noise — dominated by banking VP titles, data engineering roles, small startups, and wrong domains. No qualifying results.
+
+**Adzuna**: London results almost entirely banking VP titles (Citi/Citigroup). Singapore had one opaque CTO via Vouch Recruitment (GPU infra, company hidden). No qualifying results.
+
+**MCF**: 18 results. All below comp threshold, tiny companies, wrong domains, or previously seen.
+
+**WebSearch**: 11 targeted queries. No new qualifying roles at any target company. Apple filled VP of AI (Amar Subramanya). Waymo Director Developer AI closed.
+
+**Key takeaway**: Zero qualifying results. Market is extremely thin for publicly posted exec eng roles at this level. Career page monitor remains highest-signal source.

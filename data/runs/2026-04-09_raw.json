@@ -1,0 +1,60 @@
+{
+  "date": "2026-04-09",
+  "sources_searched": [
+    "career_page_monitor (10 companies)",
+    "jsearch (5 queries: LA, Singapore, London, remote, SF)",
+    "adzuna (London, Singapore)",
+    "mycareersfuture (VP Eng, CTO)",
+    "websearch (Google, Disney, Apple, Microsoft, LinkedIn, Sony, Waymo, Netflix, Tokyo, exec boards)"
+  ],
+  "total_raw_results": 118,
+  "after_hard_filters": 0,
+  "filter_reasons": {
+    "already_in_seen_jobs": 8,
+    "comp_below_threshold": 22,
+    "company_too_small": 15,
+    "banking_vp_title": 12,
+    "wrong_domain": 28,
+    "sales_facing_role": 5,
+    "excluded_location": 2,
+    "stale_or_closed": 4,
+    "too_junior_level": 14,
+    "player_coach_hands_on": 6,
+    "defense_dealbreaker": 2
+  },
+  "notable_near_misses": [
+    {
+      "title": "Director of Engineering, Developer AI",
+      "company": "Waymo",
+      "location": "Mountain View, CA",
+      "reason_filtered": "Job no longer available (posted Dec 2025, now closed)",
+      "salary": "332000-421000",
+      "notes": "Strong match - AI developer tools at target company. Monitor for reposting."
+    },
+    {
+      "title": "VP, Digital, AI & Innovation, North America",
+      "company": "Sodexo",
+      "location": "Remote",
+      "reason_filtered": "Digital transformation/product role at food services company. Domain mismatch.",
+      "salary": "Not listed",
+      "notes": "Fortune 500, 400K+ employees but outside target industries."
+    },
+    {
+      "title": "Datadog Director of Product Management, AI Observability",
+      "company": "Datadog",
+      "location": "Unknown",
+      "reason_filtered": "Product Management role, not engineering leadership",
+      "salary": "Not listed",
+      "notes": "From career page monitor. Good company but PM not eng."
+    },
+    {
+      "title": "CTO - AI Infrastructure & Cloud Platforms",
+      "company": "Unknown (via Vouch Recruitment)",
+      "location": "Singapore",
+      "reason_filtered": "Unknown company behind recruiter. GPU infra is hardware-adjacent. No comp info.",
+      "salary": "Not listed",
+      "notes": "Too opaque to present without more details."
+    }
+  ],
+  "jobs": []
+}

@@ -610,5 +610,17 @@
     "company_key": "datadog",
     "is_target_company": false,
     "date_found": "2026-04-08"
+  },
+  {
+    "ats_id": "7798672",
+    "title": "Director of Product Management, AI Observability",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.datadoghq.com/detail/7798672/?gh_jid=7798672",
+    "updated_at": "2026-04-09",
+    "company": "Datadog",
+    "company_key": "datadog",
+    "is_target_company": false,
+    "date_found": "2026-04-09"
   }
 ]
