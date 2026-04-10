@@ -622,5 +622,17 @@
     "company_key": "datadog",
     "is_target_company": false,
     "date_found": "2026-04-09"
+  },
+  {
+    "ats_id": "9f0cc553-6d0d-4c20-b106-4ed7038234ba",
+    "title": "Head of Partner Enablement, AWS Cloud",
+    "location": "San Francisco",
+    "department": "Go To Market",
+    "url": "https://jobs.ashbyhq.com/openai/9f0cc553-6d0d-4c20-b106-4ed7038234ba",
+    "updated_at": "2026-04-09",
+    "company": "OpenAI",
+    "company_key": "openai",
+    "is_target_company": true,
+    "date_found": "2026-04-10"
   }
 ]

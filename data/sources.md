@@ -160,3 +160,17 @@ _Updated after each run._
 **WebSearch**: 11 targeted queries. No new qualifying roles at any target company. Apple filled VP of AI (Amar Subramanya). Waymo Director Developer AI closed.
 
 **Key takeaway**: Zero qualifying results. Market is extremely thin for publicly posted exec eng roles at this level. Career page monitor remains highest-signal source.
+
+### 2026-04-10: Fifth run
+
+**Career Page Monitor**: Checked all 10 Greenhouse/Ashby companies. 1 new role: OpenAI Head of Partner Enablement, AWS Cloud -- Go To Market department, not engineering. Filtered.
+
+**JSearch**: 15 results across 4 queries (LA, London, Singapore, Tokyo). LA dominated by banking VP titles and small startups. London had only Field CTO and founding CTO. Singapore: defence CTO (dealbreaker), Web3 CTO (dealbreaker), intern. Tokyo: 0 results again.
+
+**Adzuna**: London still overwhelmed by banking VP titles (10 of 15 were Citi/Citigroup/Jefferies). Singapore: mostly sales/BD roles, no qualifying engineering leadership.
+
+**MCF**: 18 results across 2 queries. New entries all filtered: GlobalTix CTO (comp too low), BCW DLT CTO (Web3 dealbreaker), Oriental Remedies CTO (wrong domain), Peak Ocean CTO (chemical engineering), FNDR VP Eng (startup, low comp).
+
+**WebSearch**: Found Disney VP, AI & Engineering in Burbank -- new role distinct from the previously rejected Addressable Advertising VP. Only qualifying result. Google/Waymo/OpenAI/Microsoft/Sony: no new qualifying roles. Apple: hard to parse (custom ATS).
+
+**Key takeaway**: 1 new qualifying role (Disney VP AI & Engineering). WebFetch unavailable so could not verify posting status -- flagged as UNCERTAIN. Market continues extremely thin at this level.
