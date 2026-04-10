@@ -36,9 +36,15 @@ Deduplicate, rank, and present the best jobs from today's search.
    For each job that passed filtering and ranking, use WebFetch on its URL with this prompt:
    `"Is this job still open and accepting applications? Look for any of these signals that it's closed: 'no longer accepting applications', 'this position has been filled', 'job no longer available', 'expired', 'closed', 'this role has been filled', 'removed', 'position closed', or any similar language. Also check if the page returns a 404 or redirects to a general careers page. Report: OPEN, CLOSED, or UNCERTAIN with the reason."`
 
-   - Drop any job marked CLOSED.
-   - For UNCERTAIN, include it but note the concern.
+   - **Drop any job marked CLOSED.**
+   - **Treat 404 errors as CLOSED.** A 404 almost always means the role was removed.
+   - **For UNCERTAIN**: Try alternative verification — search the web for the job title + company + "closed OR filled OR expired", or check secondary sources like showbizjobs.com, builtin.com, theladders.com that may mirror closed postings. Drop if any source confirms closed.
+   - **If WebFetch fails for a domain**, try these fallbacks in order:
+     a. Try alternative URLs (e.g., `jobs.X.com` vs `www.X.com` vs `careers.X.com`)
+     b. WebSearch for "{job title} {company} filled OR closed OR expired 2026"
+     c. If still uncertain, DROP the job rather than presenting an unverified lead
    - This step is cheap — there are typically only 2-5 finalists.
+   - **Bias toward dropping**: A false positive (presenting a dead role) wastes the user's time. A false negative (dropping a live role) just means we find it tomorrow.
 
 6. **Present to the user** in a clear markdown format:
    ```

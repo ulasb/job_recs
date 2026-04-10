@@ -18,7 +18,9 @@ cd "$PROJECT_DIR"
 git pull --rebase origin main >> "$LOG_FILE" 2>&1 || true
 
 # Run Claude Code in print mode with the full pipeline
-claude -p "Run the daily job search pipeline. Read and follow .claude/commands/search.md then .claude/commands/present.md.
+# --dangerously-skip-permissions: this is a trusted automated run; WebFetch needs
+# to hit arbitrary job URLs for verification, which can't be pre-allowlisted.
+claude -p --dangerously-skip-permissions "Run the daily job search pipeline. Read and follow .claude/commands/search.md then .claude/commands/present.md.
 
 IMPORTANT: This is a non-interactive run. Do NOT ask for feedback or wait for user input. Complete all steps and save results automatically.
 

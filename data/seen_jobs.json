@@ -331,8 +331,8 @@
     "salary": "$275,900-$370,000 base + bonus + equity",
     "summary": "VP of AI and Software Engineering. Oversees AI technologies, drives roadmaps, manages AI Core Team. Disney Entertainment and ESPN Product & Technology org.",
     "relevance_score": 9.0,
-    "feedback": null,
-    "feedback_reason": null,
+    "feedback": "no",
+    "feedback_reason": "CLOSED — filled Jan 2, 2026. Posting stale on Disney career site for 3+ months. Verification failed due to WebFetch permission gating + 404 on www.disneycareers.com URL.",
     "dedup_key": "disney|vp_ai_engineering|burbank_ca"
   },
   {
