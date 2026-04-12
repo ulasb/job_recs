@@ -174,3 +174,17 @@ _Updated after each run._
 **WebSearch**: Found Disney VP, AI & Engineering in Burbank -- new role distinct from the previously rejected Addressable Advertising VP. Only qualifying result. Google/Waymo/OpenAI/Microsoft/Sony: no new qualifying roles. Apple: hard to parse (custom ATS).
 
 **Key takeaway**: 1 new qualifying role (Disney VP AI & Engineering). WebFetch unavailable so could not verify posting status -- flagged as UNCERTAIN. Market continues extremely thin at this level.
+
+### 2026-04-11: Sixth run
+
+**Career Page Monitor**: Checked all 10 Greenhouse/Ashby companies. 0 new exec engineering roles.
+
+**JSearch**: 10 results for LA only; London/Singapore/Tokyo all returned 0. LA results: AEG VP Eng ($217-300K, below threshold), IV.AI (small/player-coach), Disney Addressable Ads (duplicate), banking/civil eng titles, Thiozen ($180-200K). No qualifying results.
+
+**Adzuna**: London dominated by banking VP titles again (Citi, Jefferies, Robert Walters). RELX/Elsevier reposted at £63K. Singapore: Hays confidential CTO (duplicate). No qualifying results.
+
+**MCF**: API returning 403 Forbidden on both queries. May be blocked or rate-limited. Need to investigate.
+
+**WebSearch**: Found Adyen VP Engineering ML/AI (Amsterdam, ~100-person team) — strong match on paper but role appears closed (Greenhouse URL returns error). Scale AI VP Enterprise surfaced but similar role was rejected prior. No new roles at any target company (Google, Apple, Microsoft, Disney, Sony, Waymo, Anthropic, OpenAI). Tokyo leads all low-comp/small-team. Exec recruiter boards (Heidrick, Riviera) have no public listings.
+
+**Key takeaway**: Zero qualifying results. MCF API may be broken. Adyen VP Eng ML/AI was the most interesting lead but appears closed; worth monitoring for reopening.
