@@ -1,0 +1,103 @@
+{
+  "date": "2026-04-12",
+  "sources_searched": [
+    "career_monitor (10 Greenhouse/Ashby companies)",
+    "jsearch (LA, London, Singapore, Tokyo)",
+    "adzuna (London, Singapore)",
+    "mycareersfuture (CTO, VP Engineering)",
+    "websearch (Google, OpenAI, Apple, Disney, Sony, Waymo, Anthropic, Microsoft, LinkedIn, Netflix, exec boards, ATS boards)"
+  ],
+  "total_raw_results": 68,
+  "results_by_source": {
+    "career_monitor": {
+      "total": 0,
+      "notes": "0 new exec engineering roles across all 10 monitored companies"
+    },
+    "jsearch": {
+      "total": 10,
+      "notes": "LA returned 10 results; London, Singapore (timeout), Tokyo all returned 0. LA dominated by small startups, banking titles, and wrong domains."
+    },
+    "adzuna": {
+      "total": 30,
+      "notes": "London: 15 results, all banking VP titles (Citi, Jefferies, Robert Walters) or irrelevant (junior roles, SDRs). Singapore: 15 results, mostly BD/sales roles."
+    },
+    "mycareersfuture": {
+      "total": 18,
+      "notes": "CTO query: 15 results, all previously seen or filtered (comp too low, wrong domain, Web3). VP Engineering query: 3 results, all filtered."
+    },
+    "websearch": {
+      "total": 10,
+      "notes": "Google: VP Photos (can't verify JS-rendered), VP Security (out of scope), VP Finance/Compliance (out of scope), VP Cloud (infra-focused). Disney: only Addressable Ads VP (already rejected). Sony: VP Software Dev (404/closed). Waymo: Director DevAI (confirmed CLOSED). OpenAI/Anthropic/Apple/Microsoft/Netflix/LinkedIn: no new qualifying eng leadership roles."
+    }
+  },
+  "pre_filter_candidates": [
+    {
+      "title": "VP of Engineering - AI Platform & Scale Leader",
+      "company": "Ghost (ghst.io)",
+      "location": "Los Angeles, CA",
+      "source": "jsearch",
+      "filter_reason": "B2B surplus inventory marketplace, not AI platform. Series C ~$40M. Likely <200 employees. Player-coach language in description.",
+      "status": "FILTERED"
+    },
+    {
+      "title": "VP Product Engineering",
+      "company": "Irvine Technology Corporation (recruiter)",
+      "location": "Los Angeles, CA",
+      "source": "jsearch",
+      "salary": "$190,000-$210,000",
+      "filter_reason": "Comp far below $350K threshold. Also described as 'senior individual contributor' — not leadership.",
+      "status": "FILTERED"
+    },
+    {
+      "title": "VP of Engineering",
+      "company": "VirtualVocations (recruiter listing)",
+      "location": "Inglewood, CA",
+      "source": "jsearch",
+      "filter_reason": "Recruiter aggregator listing, no company identified. Cannot verify company size or comp.",
+      "status": "FILTERED"
+    },
+    {
+      "title": "VP, Engineering (Core Services, Data, & AI/ML)",
+      "company": "StockX",
+      "location": "Remote US",
+      "source": "websearch",
+      "filter_reason": "Role posted November 2022 (3+ years stale). Almost certainly filled.",
+      "status": "FILTERED"
+    },
+    {
+      "title": "Chief Technology Officer",
+      "company": "Vouch Recruitment (AI Infrastructure)",
+      "location": "Singapore",
+      "source": "adzuna",
+      "filter_reason": "Duplicate from prior run. Company identity hidden behind recruiter. GPU infra focus may be too infrastructure-specific.",
+      "status": "FILTERED (duplicate)"
+    },
+    {
+      "title": "VP Domain Leader",
+      "company": "Sonar",
+      "location": "London, UK",
+      "source": "adzuna",
+      "salary": "£108,720",
+      "filter_reason": "Comp below £160K threshold. 'VP Domain Leader' is an unusual title — may be equivalent to Senior Manager.",
+      "status": "FILTERED"
+    },
+    {
+      "title": "Head of Engineering, Search / AI",
+      "company": "AlphaSense",
+      "location": "Unknown (likely NYC/Remote)",
+      "source": "websearch/linkedin",
+      "filter_reason": "Reports to EVP of Engineering. Likely Senior Director equivalent, not VP-level. Financial data analytics domain is adjacent but not core. Could not verify posting details or freshness.",
+      "status": "FILTERED (borderline)"
+    },
+    {
+      "title": "Vice President, Software Development - Global",
+      "company": "Sony Interactive Entertainment",
+      "location": "Unknown",
+      "source": "websearch",
+      "filter_reason": "Returns 404 — likely closed/filled. Role focused on OS and SDKs (systems/firmware), which is out of scope per learned preferences.",
+      "status": "FILTERED (closed + wrong domain)"
+    }
+  ],
+  "qualifying_results": [],
+  "notes": "Seventh consecutive day with extremely thin market for publicly posted exec engineering roles at this level. All API sources and WebSearch exhausted with zero qualifying results."
+}

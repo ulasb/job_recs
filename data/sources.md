@@ -188,3 +188,17 @@ _Updated after each run._
 **WebSearch**: Found Adyen VP Engineering ML/AI (Amsterdam, ~100-person team) — strong match on paper but role appears closed (Greenhouse URL returns error). Scale AI VP Enterprise surfaced but similar role was rejected prior. No new roles at any target company (Google, Apple, Microsoft, Disney, Sony, Waymo, Anthropic, OpenAI). Tokyo leads all low-comp/small-team. Exec recruiter boards (Heidrick, Riviera) have no public listings.
 
 **Key takeaway**: Zero qualifying results. MCF API may be broken. Adyen VP Eng ML/AI was the most interesting lead but appears closed; worth monitoring for reopening.
+
+### 2026-04-12: Seventh run
+
+**Career Page Monitor**: Checked all 10 Greenhouse/Ashby companies. 0 new exec engineering roles.
+
+**JSearch**: LA returned 10 results — Ghost VP Eng was misleading (B2B marketplace, not AI), Irvine Tech VP at $190-210K (below threshold), rest were small startups or wrong domains. London/Tokyo returned 0 results. Singapore timed out.
+
+**Adzuna**: London still dominated by banking VP titles. Sonar VP Domain Leader at £108K (below threshold). Singapore: Vouch CTO (duplicate), rest were BD/sales roles.
+
+**MCF**: API working again (was 403 yesterday). CTO query: 15 results, all previously seen or filtered. VP Eng query: 3 results, all filtered. Market consistently below comp thresholds.
+
+**WebSearch**: Extensive search of all target companies. Google careers pages render as JavaScript — cannot verify role status via WebFetch. Sony VP Software Development returns 404 (likely filled). Waymo Director DevAI confirmed CLOSED. No new qualifying roles at OpenAI, Anthropic, Apple, Disney, Microsoft, Netflix, LinkedIn. StockX VP Eng was from Nov 2022 (stale). AlphaSense Head of Engineering Search/AI is borderline (reports to EVP, possibly too junior).
+
+**Key takeaway**: Zero qualifying results for the fourth consecutive day. Market remains extremely thin for publicly posted exec eng roles at this level.
