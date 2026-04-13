@@ -202,3 +202,17 @@ _Updated after each run._
 **WebSearch**: Extensive search of all target companies. Google careers pages render as JavaScript — cannot verify role status via WebFetch. Sony VP Software Development returns 404 (likely filled). Waymo Director DevAI confirmed CLOSED. No new qualifying roles at OpenAI, Anthropic, Apple, Disney, Microsoft, Netflix, LinkedIn. StockX VP Eng was from Nov 2022 (stale). AlphaSense Head of Engineering Search/AI is borderline (reports to EVP, possibly too junior).
 
 **Key takeaway**: Zero qualifying results for the fourth consecutive day. Market remains extremely thin for publicly posted exec eng roles at this level.
+
+### 2026-04-13: Eighth run
+
+**Career Page Monitor**: Checked all 10 Greenhouse/Ashby companies. 0 new exec engineering roles.
+
+**JSearch**: LA returned 10 results — all duplicates (Reku SVP, AEG), below comp threshold (Irvine Tech $190-210K), wrong domain (Sompo insurance, WSP construction, PacWest Bank security), or small/player-coach (Ghost, VirtualVocations). London returned 10 — banking VP titles (JPMorgan, Goldman), sales-facing (Cloudera), consulting (ESR Healthcare). Singapore timed out. Tokyo 0 results.
+
+**Adzuna**: London dominated by banking VP titles again (Citi, Jefferies). Sonar VP Domain Leader reposted at £108K (below threshold). Singapore: Vouch CTO and Hays CTO duplicates, rest are BD/sales/non-engineering roles.
+
+**MCF**: CTO query returned 15 — all previously seen or filtered (low comp, Web3, chemical engineering). VP Eng query returned 2 — FNDR (small/low comp), Google Principal Architect (solutions role, not eng leadership).
+
+**WebSearch**: Isomorphic Labs Head of Engineering London confirmed CLOSED (removed from Greenhouse board). WPP/Choreograph VP Engineering Campaign Management in London — ad-delivery domain mismatch. Zapier Sr. Director Applied AI — strong comp ($373-560K) but player/coach emphasis. No new qualifying roles at any target company. Robert Half Tokyo VP Eng is actually Engineering Manager at ¥12-18M requiring JLPT N2.
+
+**Key takeaway**: Zero qualifying results for the fifth consecutive day. Isomorphic Labs was the most interesting near-miss but the role was filled/removed. Market remains extremely thin.

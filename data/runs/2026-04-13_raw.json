@@ -1,0 +1,21 @@
+{
+  "date": "2026-04-13",
+  "sources_searched": {
+    "career_monitor": {"companies_checked": 10, "new_exec_engineering_roles": 0},
+    "jsearch_la": {"results": 10, "qualifying": 0, "notes": "Duplicates (Reku SVP, AEG), below comp threshold (Irvine Tech $190-210K, Confidential $275-290K), wrong domain (Sompo insurance, WSP construction, PacWest Bank security), small/player-coach (Ghost, VirtualVocations)"},
+    "jsearch_london": {"results": 10, "qualifying": 0, "notes": "Banking VP titles (JPMorgan, Goldman), sales-facing (Cloudera VP Solution Engineering), consulting (ESR Healthcare), small biotech (Cubiq Recruitment), duplicate (Mastercard)"},
+    "jsearch_singapore": {"results": 0, "qualifying": 0, "notes": "Timed out"},
+    "jsearch_tokyo": {"results": 0, "qualifying": 0, "notes": "Zero results as usual"},
+    "adzuna_london": {"results": 14, "qualifying": 0, "notes": "Banking VP titles dominate (Citi, Jefferies, Robert Walters), RELX repost at £63K, junior roles, Sonar VP Domain Leader at £108K below threshold"},
+    "adzuna_singapore": {"results": 15, "qualifying": 0, "notes": "Vouch CTO (duplicate), Hays CTO (duplicate), rest are non-engineering (BD, sales, intern, office manager)"},
+    "mcf_cto": {"results": 15, "qualifying": 0, "notes": "All previously seen or filtered: NodeFlair (too small), GlobalTix (low comp), Kaneze (low comp), BCW DLT (Web3), Randstad (low comp/gov), Libeara (Web3), Oriental Remedies (wrong domain), ChemOne (chemical engineering), Peak Ocean (chemical engineering)"},
+    "mcf_vp_eng": {"results": 2, "qualifying": 0, "notes": "FNDR (small startup, low comp range), Google Principal Architect Singapore (solutions architect, not eng leadership)"},
+    "websearch_target_companies": {"qualifying": 0, "notes": "No new qualifying roles at Google, OpenAI, Anthropic, Waymo, Microsoft, Apple, Disney, Sony, Netflix, LinkedIn"},
+    "websearch_exec_boards": {"qualifying": 0, "notes": "Isomorphic Labs Head of Engineering London CLOSED (removed from Greenhouse). WPP VP Eng Campaign Management is ad-delivery domain (user rejected similar). Zapier Sr. Director Applied AI is player/coach with hands-on emphasis."},
+    "websearch_asia": {"qualifying": 0, "notes": "Robert Half Tokyo VP Eng is actually Engineering Manager at ¥12-18M requiring JLPT N2. No other new leads."}
+  },
+  "total_raw_results": 68,
+  "new_after_dedup": 0,
+  "qualifying_after_filters": 0,
+  "jobs": []
+}
