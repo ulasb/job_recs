@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-14",
+  "sources_searched": [
+    "career_monitor (12 companies)",
+    "jsearch (LA, London, Singapore, Tokyo)",
+    "adzuna (London, Singapore)",
+    "mycareersfuture (CTO, VP Eng)",
+    "websearch (Google, Apple, Disney, Netflix, Uber, Snap, Sony, Microsoft, LinkedIn, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify, exec recruiters, Greenhouse/Lever boards, Tokyo)"
+  ],
+  "total_raw_results": 82,
+  "results_by_source": {
+    "career_monitor": {"total": 0, "new_exec_eng": 0},
+    "jsearch_la": {"total": 10, "qualifying": 0, "filtered_reasons": "below comp threshold, banking VP titles, wrong domain (insurance, construction, security), player-coach, duplicates"},
+    "jsearch_london": {"total": 10, "qualifying": 0, "filtered_reasons": "banking VP titles (JPMorgan, Citi, Citigroup, Goldman Sachs, Jefferies), sales-facing (Cloudera), ad delivery domain (WPP), closed (Mastercard)"},
+    "jsearch_singapore": {"total": 10, "qualifying": 0, "filtered_reasons": "crypto/blockchain dealbreaker (3), requires Chinese fluency, field CTO/sales, small companies, unclear recruiter postings"},
+    "jsearch_tokyo": {"total": 0, "qualifying": 0},
+    "adzuna_london": {"total": 15, "qualifying": 0, "filtered_reasons": "banking VP titles, below comp threshold (RELX £63K, Sonar £108K), junior roles, irrelevant"},
+    "adzuna_singapore": {"total": 15, "qualifying": 0, "filtered_reasons": "sales/BD roles, duplicates (Vouch CTO, Hays CTO), irrelevant"},
+    "mcf_cto": {"total": 0, "error": "API timed out"},
+    "mcf_vp_eng": {"total": 2, "qualifying": 0, "filtered_reasons": "FNDR VP Eng SGD 5,500-20,000/mo (below threshold, likely tiny startup), Google Principal Architect (solutions role)"},
+    "websearch_target_companies": {"total": 1, "qualifying": 0, "filtered_reasons": "Disney VP Software Eng is Addressable Advertising (ad-delivery domain mismatch per learned preferences)"},
+    "websearch_general": {"total": 0, "qualifying": 0, "notes": "No new exec eng roles found at Google, Apple (Sr Dir removed), Microsoft, Sony, Netflix, Uber, Snap, LinkedIn, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify"},
+    "websearch_greenhouse_lever": {"total": 9, "qualifying": 0, "filtered_reasons": "all small companies (<200 employees) or crypto (dYdX dealbreaker)"},
+    "websearch_exec_recruiters": {"total": 0, "qualifying": 0, "notes": "Heidrick, True Search, Riviera Partners have no public exec eng listings"},
+    "websearch_tokyo": {"total": 0, "qualifying": 0, "notes": "Only stale SyntheticGestalt (previously seen/rejected) and Robert Half EM-level roles"}
+  },
+  "qualifying_after_filters": 0,
+  "verified_open": 0,
+  "jobs": []
+}

@@ -65,14 +65,16 @@ These are checked via structured JSON APIs (Greenhouse/Ashby). The monitor filte
 | OpenAI | Ashby | Yes | openai |
 | Waymo | Greenhouse | Yes | waymo |
 | Sony Interactive | Greenhouse | Yes | sonyinteractiveentertainmentglobal |
-| Stripe | Greenhouse | No | stripe |
+| Stripe | Greenhouse | Yes | stripe |
+| Airbnb | Greenhouse | Yes | airbnb |
+| Spotify | Lever | Yes | spotify |
 | Databricks | Greenhouse | No | databricks |
 | Scale AI | Greenhouse | No | scaleai |
 | Cloudflare | Greenhouse | No | cloudflare |
 | Figma | Greenhouse | No | figma |
 | Datadog | Greenhouse | No | datadog |
 
-**Not yet integrated** (custom ATS, need WebSearch): Google, Microsoft, Apple, Disney, LinkedIn, Netflix
+**Not yet integrated** (custom ATS, need WebSearch): Google, Microsoft, Apple, Disney, LinkedIn, Netflix, Uber, Snap, Salesforce
 
 ## Executive Recruiter Public Boards
 
@@ -216,3 +218,31 @@ _Updated after each run._
 **WebSearch**: Isomorphic Labs Head of Engineering London confirmed CLOSED (removed from Greenhouse board). WPP/Choreograph VP Engineering Campaign Management in London — ad-delivery domain mismatch. Zapier Sr. Director Applied AI — strong comp ($373-560K) but player/coach emphasis. No new qualifying roles at any target company. Robert Half Tokyo VP Eng is actually Engineering Manager at ¥12-18M requiring JLPT N2.
 
 **Key takeaway**: Zero qualifying results for the fifth consecutive day. Isomorphic Labs was the most interesting near-miss but the role was filled/removed. Market remains extremely thin.
+
+### 2026-04-13: Eighth run (re-run with expanded scope)
+
+**Expanded scope**: Added 7 target companies (Stripe, Netflix, Uber, Airbnb, Snap, Spotify, Salesforce) and new geographies (Canada: Toronto/Vancouver/Montreal; Europe: Amsterdam, Berlin, Dublin, Zurich, Stockholm).
+
+**New career page integrations**: Airbnb (Greenhouse, 237 jobs), Spotify (Lever, 176 jobs), Stripe (Greenhouse, 497 jobs) all working. Lever integration needed timeout fix (increased to 30s). No new exec eng roles at any of the 12 monitored companies.
+
+**New target companies**: Netflix has 0 VP/Director roles (only EM-level). Uber, Snap have 0 relevant openings. Airbnb has 0 VP/Director roles. Spotify has 0 VP/Head roles. Stripe has 0 exec eng roles on Greenhouse. **Salesforce is the winner** — multiple VP Software Engineering roles found via WebSearch, including Agentforce Marketing (AI-first) and Revenue Cloud (Agentic platform). Salesforce career site blocks WebFetch (404 WAF) but roles are findable via site search.
+
+**Canada**: Very thin at exec level. JSearch returned 0 for Toronto, Adzuna returned 2 (both below threshold). No VP/CTO roles at qualifying companies found via WebSearch either. API sources are not useful for Canadian exec roles.
+
+**Continental Europe**: JSearch returned 0 for Amsterdam, Berlin, Dublin. Adzuna Germany found Intercom Senior Director Engineering Berlin — the best new find. Adzuna Netherlands returned 0. Adzuna France returned only French-language junior roles. Direct Greenhouse/Lever monitoring + WebSearch are the primary channels for European exec roles.
+
+**Key results**: 3 qualifying roles found — Salesforce VP Agentforce Marketing (Bellevue), Intercom Senior Director Engineering (Berlin, VERIFIED OPEN), Salesforce VP Revenue Cloud (multi-location). First qualifying results in 6 days, driven by expanded company list.
+
+### 2026-04-14: Ninth run
+
+**Career Page Monitor**: Checked all 12 Greenhouse/Ashby/Lever companies. 0 new exec engineering roles.
+
+**JSearch**: LA returned 10 — below comp threshold (AEG $217-300K, Irvine Tech $190-210K, PacWest $121-200K), wrong domains (Sompo insurance, construction), player-coach roles, duplicates. London returned 10 — banking VP titles (JPMorgan, Citi, Goldman Sachs, Jefferies), sales-facing (Cloudera), ad delivery (WPP). Singapore returned 10 — crypto/blockchain dealbreaker (3 roles), requires Chinese fluency (OSW), Field CTO (Circles). Tokyo returned 0.
+
+**Adzuna**: London dominated by banking VP titles again. RELX reposted at £63K, Sonar VP Domain Leader at £108K (both below threshold). Singapore: sales/BD roles, Vouch CTO and Hays CTO duplicates.
+
+**MCF**: CTO query timed out. VP Eng returned 2 — FNDR VP Eng at SGD 5,500-20K/mo (below threshold, tiny startup), Google Principal Architect (solutions role).
+
+**WebSearch**: Disney VP Software Engineering (Glendale, $305-409K) is specifically Addressable Advertising — ad-delivery domain mismatch per learned preferences. Mastercard VP Software Engineering London confirmed CLOSED. Apple Sr. Director ML Engineering & Innovation REMOVED from careers site. No new roles at Google, Microsoft, Sony, Netflix, Uber, Snap, LinkedIn, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify. Greenhouse/Lever boards all small companies or crypto. Exec recruiters have no public listings.
+
+**Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
