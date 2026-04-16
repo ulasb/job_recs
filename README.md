@@ -1,1 +1,1 @@
-Active, daily run pipeline example for doing job searches.
+Daily running pipeline example, searching for active jobs. Triggered and updated via Claude.
