@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-16",
+  "sources_searched": {
+    "career_monitor": {"companies_checked": 13, "new_exec_engineering_roles": 0, "notes": "Now 13 companies (added Canva via SmartRecruiters). OpenAI Ashby and Spotify Lever timed out. No new exec eng roles."},
+    "jsearch_la": {"results": 10, "qualifying": 0, "notes": "PTR Global VP Eng $275-290K (staffing company = dealbreaker), WSP civil eng, Reku SVP (duplicate), Irvine Tech $190-210K (below threshold), Ghost (small/player-coach), VirtualVocations (aggregator), Confidential (likely AEG duplicate)"},
+    "jsearch_london": {"results": 10, "qualifying": 0, "notes": "Aisel Health VP Eng (pre-funding startup ~5 people), Apply4U VP Eng Campaign Platform (ad delivery domain), BlackRock/BNY/Citi/JPMorgan/Goldman (banking VP titles), Mastercard VP (previously seen, closed), WPP Campaign Mgmt (already rejected)"},
+    "adzuna_de": {"results": 5, "qualifying": 0, "notes": "Intercom Senior Director Berlin (rejected for WLB), Affinidi (small/Web3), Aiven/Stripe (AE = sales), Wolters Kluwer TPM"},
+    "adzuna_au": {"results": 1, "qualifying": 0, "notes": "Armada AI Factory Customer Engineer (wrong level)"},
+    "adzuna_au_cto": {"results": 15, "qualifying": 0, "notes": "Latitude IT Head of Eng/CTO (57 employees, below 200 min), Clear Recruitment CTO $225K AUD (below threshold), Optiver Head of Infra (SRE/player-coach, rejected yesterday), Bluebird/Novum (recruiter postings for unknown companies), rest are non-engineering"},
+    "adzuna_uk": {"results": 15, "qualifying": 0, "notes": "Vantage Data Centers VP Eng £110K (data center infra, below threshold), RELX £63K (repost), BlackRock/Citi (banking VP), Portfolio Group CTO £150K (below £160K), Reed Head SW Dev £120-150K (below), Adepta CTO £110K (below)"},
+    "mcf_cto": {"results": 15, "qualifying": 0, "notes": "BIENE CTO SGD 21-25K (borderline, small), Manpower Healthcare CTO SGD 15-18K (below + staffing), rest all previously seen/filtered"},
+    "websearch_target_companies": {"qualifying": 0, "notes": "No new roles at Google, Apple, Microsoft, Netflix, Disney, Sony, LinkedIn, Uber, Snap, Stripe, Airbnb, Spotify, Salesforce. No specific postings surfaced."},
+    "websearch_australia": {"qualifying": 0, "notes": "No new qualifying leads beyond yesterday's Canva (now dead link). General market reporting only."},
+    "websearch_europe": {"qualifying": 0, "notes": "Glassdoor shows volume (160 VP eng in Germany, 67 in NL) but no specific qualifying roles surfaced. Companies mentioned (Zalando, Oviva, vivenu) are either wrong domain or too small."},
+    "websearch_canada": {"qualifying": 0, "notes": "GC AI VP Eng Toronto (small legal AI startup, seen before), Advanced Tech Search (recruiter posting). No qualifying results."},
+    "websearch_zendesk": {"qualifying": 0, "notes": "Zendesk Sr Director Enterprise Transformation is corporate IT/compliance domain — out of scope."}
+  },
+  "total_raw_results": 101,
+  "new_after_dedup": 0,
+  "qualifying_after_filters": 0,
+  "jobs": []
+}
