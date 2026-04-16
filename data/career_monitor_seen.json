@@ -634,5 +634,101 @@
     "company_key": "openai",
     "is_target_company": true,
     "date_found": "2026-04-10"
+  },
+  {
+    "ats_id": "7721171",
+    "title": "Head of Homes Supply, Hong Kong, Singapore and Taiwan",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.airbnb.com/positions/7721171?gh_jid=7721171",
+    "updated_at": "2026-03-23",
+    "company": "Airbnb",
+    "company_key": "airbnb",
+    "is_target_company": true,
+    "date_found": "2026-04-13"
+  },
+  {
+    "ats_id": "ae44a3a6-ce50-45c1-9a17-76644c0a234d",
+    "title": "Head of Government Affairs Australia New Zealand",
+    "location": "Sydney",
+    "department": "Public Affairs",
+    "url": "https://jobs.lever.co/spotify/ae44a3a6-ce50-45c1-9a17-76644c0a234d",
+    "updated_at": "",
+    "company": "Spotify",
+    "company_key": "spotify",
+    "is_target_company": true,
+    "date_found": "2026-04-13"
+  },
+  {
+    "ats_id": "7721171",
+    "title": "Head of Homes Supply, Hong Kong, Singapore and Taiwan",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.airbnb.com/positions/7721171?gh_jid=7721171",
+    "updated_at": "2026-03-23",
+    "company": "Airbnb",
+    "company_key": "airbnb",
+    "is_target_company": true,
+    "date_found": "2026-04-13"
+  },
+  {
+    "ats_id": "7721171",
+    "title": "Head of Homes Supply, Hong Kong, Singapore and Taiwan",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.airbnb.com/positions/7721171?gh_jid=7721171",
+    "updated_at": "2026-03-23",
+    "company": "Airbnb",
+    "company_key": "airbnb",
+    "is_target_company": true,
+    "date_found": "2026-04-13"
+  },
+  {
+    "ats_id": "ae44a3a6-ce50-45c1-9a17-76644c0a234d",
+    "title": "Head of Government Affairs Australia New Zealand",
+    "location": "Sydney",
+    "department": "Public Affairs",
+    "url": "https://jobs.lever.co/spotify/ae44a3a6-ce50-45c1-9a17-76644c0a234d",
+    "updated_at": "",
+    "company": "Spotify",
+    "company_key": "spotify",
+    "is_target_company": true,
+    "date_found": "2026-04-13"
+  },
+  {
+    "ats_id": "6000000000821785",
+    "title": "Head of Data - International",
+    "location": "London, gb",
+    "department": "Information Technology",
+    "url": "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000821785",
+    "updated_at": "2026-01-23",
+    "company": "Canva",
+    "company_key": "canva",
+    "is_target_company": true,
+    "date_found": "2026-04-15"
+  },
+  {
+    "ats_id": "6000000000813819",
+    "title": "Head of Design Research",
+    "location": "Melbourne, VIC, au",
+    "department": "Design",
+    "url": "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000813819",
+    "updated_at": "2026-01-20",
+    "company": "Canva",
+    "company_key": "canva",
+    "is_target_company": true,
+    "date_found": "2026-04-15"
+  },
+  {
+    "ats_id": "6000000000813814",
+    "title": "Head of Design Research",
+    "location": "Sydney, au",
+    "department": "Design",
+    "url": "https://api.smartrecruiters.com/v1/companies/Canva/postings/6000000000813814",
+    "updated_at": "2026-01-20",
+    "company": "Canva",
+    "company_key": "canva",
+    "is_target_company": true,
+    "date_found": "2026-04-15"
   }
 ]

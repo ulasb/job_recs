@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-15",
+  "sources_searched": {
+    "career_monitor": {"companies_checked": 12, "new_exec_engineering_roles": 0, "notes": "All 12 monitored companies checked. 0 new exec eng roles."},
+    "jsearch_la": {"results": 10, "qualifying": 0, "notes": "All duplicates or below threshold: AEG, Irvine Tech $190-210K, Ghost, VirtualVocations, WSP civil, Thiozen SPM, Zendesk Sr Director Enterprise Transformation"},
+    "jsearch_london": {"results": 10, "qualifying": 0, "notes": "Mastercard VP (already seen, verified closed), banking VPs (JPMorgan, Goldman, Citi, BlackRock), WPP Campaign Mgmt (ad-delivery domain). No new qualifying roles."},
+    "adzuna_au": {"results": 2, "qualifying": 0, "notes": "Remote World VP Data Engineering (data eng domain, out of scope), Armada AI Factory Customer Engineer"},
+    "adzuna_au_cto": {"results": 15, "qualifying": 3, "notes": "Clear Recruitment CTO Sydney AUD 225K (below US-equivalent threshold), Optiver Head of Infrastructure Sydney (SRE/player-coach), Bluebird Head of Engineering (recruiter posting, unclear), Novum Global CTO Legal AI Sydney (likely small). Most roles are non-engineering."},
+    "adzuna_nz": {"results": 0, "qualifying": 0, "notes": "Zero results for NZ VP engineering"},
+    "adzuna_uk": {"results": 15, "qualifying": 0, "notes": "RELX £63K (below threshold, repost), BlackRock £76-83K Front End VP (banking VP title), Citi AI Lead VP £59K (banking VP), Portfolio Group CTO £150K (below £160K threshold), Reed £120-150K Head of SW Dev (below threshold), junior/non-engineering"},
+    "adzuna_de": {"results": 4, "qualifying": 0, "notes": "Intercom Senior Director Eng Berlin (previously rejected for WLB concerns), Affinidi small Web3 Berlin, Aiven AE (sales), Wolters Kluwer TPM"},
+    "mcf_cto": {"results": 15, "qualifying": 0, "notes": "BIENE CTO (AI Experience) SGD 21-25K borderline below threshold/likely small company; Manpower Healthcare (staffing); rest previously seen/filtered (NodeFlair, GlobalTix, Kaneze, BCW Web3, Libeara Web3, etc.)"},
+    "websearch_target_us": {"qualifying": 0, "notes": "Disney VP Software Eng Glendale $304-408K confirmed OPEN but is specifically addressable/programmatic advertising domain — user rejected this explicitly on 2026-04-14."},
+    "websearch_australia": {"qualifying": 1, "notes": "Canva Engineering Director - AI Platform (ANZ Remote) — strong match. Also found Canva Engineering Director - Application Platform Sydney (non-AI platform, weaker match)."},
+    "websearch_atlassian": {"qualifying": 0, "notes": "Atlassian Head of Engineering DX role is based in Salt Lake City ($199-260K, player-coach) not Sydney. Below comp threshold."},
+    "websearch_optiver_verify": {"qualifying": 0, "notes": "Optiver Head of Infrastructure (APAC) confirmed OPEN. Player-coach with hands-on requirement. Domain is infra/SRE — user's out-of-scope list."},
+    "websearch_canva_verify": {"qualifying": 1, "notes": "Canva Engineering Director - AI Platform (ANZ Remote) VERIFIED OPEN. Role is ANZ-wide (Sydney/Melbourne/Auckland). Pure leadership — coaching eng leads and senior engineers. AI Platform Group in Generative AI Supergroup."}
+  },
+  "total_raw_results": 96,
+  "new_after_dedup": 1,
+  "qualifying_after_filters": 1,
+  "jobs": [
+    {
+      "id": "canva_6000000000639438",
+      "source": "websearch",
+      "title": "Engineering Director - AI Platform (ANZ Remote)",
+      "company": "Canva",
+      "location": "Sydney / Melbourne / Auckland (ANZ Remote)",
+      "url": "https://www.lifeatcanva.com/en/jobs/6000000000639438/engineering-director-ai-platform-anz-remote/",
+      "date_found": "2026-04-15",
+      "date_posted": "2026-04-01",
+      "salary": "Not listed. Canva SEM C2 A$311-351K avg (Levels.fyi); Director level estimated A$400-600K+ total comp",
+      "summary": "Define and deliver long-term AI platform strategy for Canva. Transform how AI is developed, evaluated, and deployed at global scale. Partner with leaders across Engineering, Product, Data. Coach and develop team of engineering leads and senior engineers. Ensure AI Platform is reliable, secure, performant. AI Platform Group is key part of Canva's Generative AI Supergroup — massively scalable model serving infrastructure, next-gen training and evaluation platforms.",
+      "relevance_score": null,
+      "feedback": null,
+      "feedback_reason": null,
+      "dedup_key": "canva|engineering_director_ai_platform_anz_remote|sydney_australia",
+      "verified": "OPEN — verified via Canva careers, Lever, and multiple aggregators"
+    }
+  ]
+}

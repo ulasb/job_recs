@@ -35,7 +35,7 @@ Executive engineering leader with 22 years of experience spanning AI/ML, consume
 - **Job types**: Full-time
 - **Company stage**: Late-stage or public tech companies. Open to exceptional growth startups only with clear product-market fit and rocketship trajectory (e.g., OpenAI, Anthropic, Waymo-caliber).
 - **Company size**: 200+ employees minimum, no hard max. Below 200 only for exceptional startups.
-- **Target companies**: Google, OpenAI, Anthropic, Waymo, Microsoft, Apple, Disney, Sony, LinkedIn
+- **Target companies**: Google, OpenAI, Anthropic, Waymo, Microsoft, Apple, Disney, Sony, LinkedIn, Stripe, Netflix, Uber, Airbnb, Snap, Spotify, Salesforce
 - **Industries preferred**: AI/ML, Consumer tech, Enterprise SaaS, Search/Ads, Autonomous vehicles, Media/Entertainment tech
 
 ### Compensation
@@ -52,8 +52,9 @@ Executive engineering leader with 22 years of experience spanning AI/ML, consume
 - **Current location**: Los Angeles, CA (most convenient if not fully remote)
 - **Remote**: Flexible — open to remote, hybrid, or on-site
 - **Open to relocation**: Yes — high flexibility
-- **Domestic relocation**: Any major US city
-- **International relocation**: Tokyo, Singapore, Seoul, Bangkok, London, Paris — open to other international cities if safe for family with quality international schools
+- **Domestic relocation**: Any major US city, plus major Canadian cities (Toronto, Vancouver, Montreal)
+- **International relocation**: Tokyo, Singapore, Seoul, Bangkok, London, Paris, Amsterdam, Berlin, Munich, Dublin, Zurich, Stockholm, Sydney, Melbourne — open to other international cities if safe for family with quality international schools
+- **Regions**: US, Canada, Europe (UK, Netherlands, Germany, France, Ireland, Switzerland, Sweden, etc.), Japan, Singapore, South Korea, Thailand, Australia, New Zealand
 - **Relocation conditions**: City must be safe for family with a young child, good international schooling options if outside US
 
 ## Priorities
@@ -84,7 +85,7 @@ Open — not urgent, looking for the right opportunity.
 
 _Updated automatically from job feedback._
 
-- **Last tuned**: 2026-04-06 (20 jobs reviewed, 0 yes, 19 no, 1 maybe)
+- **Last tuned**: 2026-04-15 (24 jobs reviewed, 0 yes, 23 no, 1 maybe)
 
 ### Comp is the #1 filter
 - UK VP roles at £90-130K base are instant rejects — even large companies like Elsevier (RELX). UK roles need £160K+ base or very clear evidence of meaningful bonus/equity.
@@ -135,3 +136,23 @@ _Updated automatically from job feedback._
 
 ### Avoid companies list update
 - Add India as an excluded location (not just excluded companies)
+
+### Work-life balance matters (round 3, 1/3 rejections)
+- Intercom Senior Director Engineering in Berlin was promising on paper (founding R&D hub, 100+ engineers, AI company) but rejected after reading Glassdoor/reviews.
+- Reviews indicated very intense work environment not compatible with prioritizing family time (user has young child).
+- **Takeaway**: Check company reviews for work-life balance signals before presenting. Flag companies known for intense/burnout cultures. Deprioritize companies with consistent WLB complaints.
+
+### Salesforce career page is unreliable for automated verification (round 3, 2/3 rejections)
+- Both Salesforce VP roles (Agentforce Marketing, Revenue Cloud) showed "Page Not Found" when user clicked through, despite being indexed in Google site search.
+- WebFetch also returned 404 during the search run.
+- **Takeaway**: Do not present Salesforce roles unless they can be verified as live via an alternative method (e.g., LinkedIn cross-reference, recruiter confirmation). The careers.salesforce.com site returns stale/dead URLs.
+
+### Link verification is critical — many "OPEN" URLs are actually dead (round 4)
+- Canva Engineering Director AI Platform link showed "Page Not Found" when user clicked through, even though WebSearch indexed it and WebFetch returned errors (possibly blocked, not 404).
+- Salesforce had the same pattern (2 out of 2 roles were dead).
+- **Takeaway**: If WebFetch returns any error (403, 404, timeout) or if only aggregator sites (echojobs, topjobstoday, talent.com) index the role, mark as UNCERTAIN and deprioritize. Only present roles where the primary ATS URL (Greenhouse, Lever, Ashby) can be verified as loading.
+
+### Director title seniority at mid-tier tech companies = instant reject (round 4)
+- Canva Engineering Director likely maps to Google L7 (not L8) — user said this is a non-starter.
+- Cloudflare Engineering Director previously rejected for same reason.
+- **Takeaway**: "Director" title is only acceptable at Google/Waymo/Apple/Netflix-tier companies where Director = L8. At Canva, Atlassian, Datadog, and similar mid-tier tech companies, Director = L7 and should be filtered out. Need VP/Head/Senior Director titles at these companies instead.

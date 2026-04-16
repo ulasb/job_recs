@@ -59,7 +59,25 @@ COMPANIES = {
         "name": "Stripe",
         "ats": "greenhouse",
         "slug": "stripe",
-        "target": False,
+        "target": True,
+    },
+    "airbnb": {
+        "name": "Airbnb",
+        "ats": "greenhouse",
+        "slug": "airbnb",
+        "target": True,
+    },
+    "spotify": {
+        "name": "Spotify",
+        "ats": "lever",
+        "slug": "spotify",
+        "target": True,
+    },
+    "canva": {
+        "name": "Canva",
+        "ats": "smartrecruiters",
+        "slug": "Canva",
+        "target": True,
     },
     "databricks": {
         "name": "Databricks",
@@ -141,7 +159,7 @@ def api_get(url: str, headers: dict = None, timeout: int = 15):
     try:
         with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
             return json.loads(resp.read().decode())
-    except (urllib.error.HTTPError, urllib.error.URLError) as e:
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as e:
         print(json.dumps({"error": str(e), "url": url}), file=sys.stderr)
         return None
 
@@ -196,6 +214,73 @@ def fetch_ashby(slug: str) -> list:
             "updated_at": (item.get("publishedAt") or "")[:10],
         })
     return jobs
+
+
+def fetch_lever(slug: str) -> list:
+    """Fetch jobs from Lever postings API."""
+    all_jobs = []
+    offset = 0
+    while True:
+        url = f"https://api.lever.co/v0/postings/{slug}?limit=100&skip={offset}"
+        data = api_get(url, timeout=30)
+        if not data or not isinstance(data, list) or len(data) == 0:
+            break
+
+        for item in data:
+            title = item.get("text", "")
+            location = item.get("categories", {}).get("location", "Unknown")
+            department = item.get("categories", {}).get("department", "") or \
+                         item.get("categories", {}).get("team", "")
+
+            all_jobs.append({
+                "ats_id": item.get("id", ""),
+                "title": title,
+                "location": location,
+                "department": department,
+                "url": item.get("hostedUrl", "") or item.get("applyUrl", ""),
+                "updated_at": "",
+            })
+
+        if len(data) < 100:
+            break
+        offset += 100
+
+    return all_jobs
+
+
+def fetch_smartrecruiters(slug: str) -> list:
+    """Fetch jobs from SmartRecruiters public postings API."""
+    all_jobs = []
+    offset = 0
+    while True:
+        url = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100&offset={offset}"
+        data = api_get(url, timeout=30)
+        if not data or "content" not in data:
+            break
+
+        for item in data["content"]:
+            title = item.get("name", "")
+            loc = item.get("location", {})
+            location_parts = [loc.get("city", ""), loc.get("region", ""), loc.get("country", "")]
+            location = ", ".join(p for p in location_parts if p) or "Unknown"
+            department = (item.get("department") or {}).get("label", "") or \
+                         (item.get("function") or {}).get("label", "")
+
+            all_jobs.append({
+                "ats_id": item.get("id", ""),
+                "title": title,
+                "location": location,
+                "department": department,
+                "url": item.get("ref", "") or item.get("applyUrl", ""),
+                "updated_at": (item.get("releasedDate") or "")[:10],
+            })
+
+        total = data.get("totalFound", 0)
+        offset += 100
+        if offset >= total:
+            break
+
+    return all_jobs
 
 
 def is_exec_engineering_role(title: str, department: str) -> bool:
@@ -259,6 +344,10 @@ def main():
             jobs = fetch_greenhouse(info["slug"])
         elif info["ats"] == "ashby":
             jobs = fetch_ashby(info["slug"])
+        elif info["ats"] == "lever":
+            jobs = fetch_lever(info["slug"])
+        elif info["ats"] == "smartrecruiters":
+            jobs = fetch_smartrecruiters(info["slug"])
         else:
             continue
 

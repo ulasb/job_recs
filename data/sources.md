@@ -68,6 +68,7 @@ These are checked via structured JSON APIs (Greenhouse/Ashby). The monitor filte
 | Stripe | Greenhouse | Yes | stripe |
 | Airbnb | Greenhouse | Yes | airbnb |
 | Spotify | Lever | Yes | spotify |
+| Canva | Lever | Yes | canva |
 | Databricks | Greenhouse | No | databricks |
 | Scale AI | Greenhouse | No | scaleai |
 | Cloudflare | Greenhouse | No | cloudflare |
@@ -246,3 +247,25 @@ _Updated after each run._
 **WebSearch**: Disney VP Software Engineering (Glendale, $305-409K) is specifically Addressable Advertising — ad-delivery domain mismatch per learned preferences. Mastercard VP Software Engineering London confirmed CLOSED. Apple Sr. Director ML Engineering & Innovation REMOVED from careers site. No new roles at Google, Microsoft, Sony, Netflix, Uber, Snap, LinkedIn, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify. Greenhouse/Lever boards all small companies or crypto. Exec recruiters have no public listings.
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
+
+### 2026-04-15: Tenth run (first Australia/NZ inclusion)
+
+**New geographies**: Added Australia and New Zealand to target locations (Sydney, Melbourne, and NZ cities). Searched Adzuna AU/NZ and did WebSearch for Australian tech companies.
+
+**Career Page Monitor**: 0 new exec eng roles across all 12 monitored companies.
+
+**Adzuna AU**: VP engineering query returned only 2 results (wrong level/domain). CTO query returned 15 results — mostly recruiter postings for confidential clients, small companies, or non-engineering. Adzuna NZ returned 0 results.
+
+**WebSearch Australia**: Much more productive than API sources. Found Canva Engineering Director - AI Platform (ANZ Remote) — first qualifying AU role. Canva uses Lever (jobs.lever.co/canva), same ATS integration already built for Spotify.
+
+**Optiver Head of Infrastructure (APAC) Sydney**: verified OPEN but filtered — player-coach + SRE/infra domain.
+
+**Atlassian**: Main exec eng role (Head of Engineering DX) is in Salt Lake City, not Sydney. Custom careers site, not in career monitor.
+
+**Key takeaway**: 1 qualifying result (Canva Engineering Director - AI Platform, ANZ Remote). Australia broadens the target significantly. Recommend adding Canva to career page monitor (Lever slug: `canva`).
+
+**Action items**:
+1. ✅ Added Canva to `scripts/monitor_careers.py` — turns out Canva uses SmartRecruiters (not Lever), so added new SmartRecruiters fetcher function. Slug: `Canva` (case-sensitive). 300 jobs on board.
+2. Investigate Atlassian's custom ATS for future monitoring
+3. Continue including Australia in Adzuna searches despite low yield — WebSearch is primary channel
+4. **Link verification learning**: Canva AI Platform Director URL appeared valid in WebSearch but returned "Page Not Found" when user clicked through. Same pattern as Salesforce URLs. For future runs, WebFetch error on primary ATS URL = drop the role. Only present if primary ATS URL loads cleanly.
