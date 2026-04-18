@@ -248,6 +248,20 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-18: Eleventh run
+
+**Career Page Monitor**: Waymo posted new **Director of Engineering, London Site Lead** (Simulator Team). £230-242K GBP base. ML/sim-focused. Verified OPEN. First qualifying result from the career monitor in multiple runs.
+
+**JSearch**: LA/London/Singapore repeated the usual noise (banking VPs, staffing, sales-facing, crypto dealbreakers, small startups). Tokyo returned 0 as always.
+
+**Adzuna**: UK dominated again by banking VPs and sub-£160K postings. AU CTO query surfaced Latitude IT (57 employees — rejected prior). DE returned only 2 (Aiven AE, Affinidi — rejected prior).
+
+**MCF**: All Singapore results previously seen/filtered. FNDR VP Eng repeated.
+
+**WebSearch**: No new exec eng roles at any target company beyond Waymo. Salesforce surfaced but in SRE/India. Tokyo market unchanged (SyntheticGestalt still the only lead, seen prior).
+
+**Key takeaway**: 1 qualifying role (Waymo Director of Engineering, London Site Lead). Career monitor continues to be the highest-signal source — the only channel that produced a hit today. All other channels continue to repeat the same noise.
+
 ### 2026-04-15: Tenth run (first Australia/NZ inclusion)
 
 **New geographies**: Added Australia and New Zealand to target locations (Sydney, Melbourne, and NZ cities). Searched Adzuna AU/NZ and did WebSearch for Australian tech companies.

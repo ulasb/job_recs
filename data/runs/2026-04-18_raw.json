@@ -1,0 +1,89 @@
+{
+  "date": "2026-04-18",
+  "sources_searched": {
+    "career_monitor": {
+      "companies_checked": 13,
+      "new_exec_engineering_roles": 1,
+      "notes": "Waymo Director of Engineering, London Site Lead (Simulator Team) is new. All other 12 boards had 0 new exec eng roles."
+    },
+    "jsearch_la": {
+      "results": 8,
+      "qualifying": 0,
+      "notes": "ATMAE VP Eng ($217-300K, below threshold), WSP civil eng, PTR Global (staffing/dealbreaker), Thiozen (climate tech, small), VirtualVocations (aggregator), STV (civil), OakTree SVP Data Eng (data eng domain mismatch)"
+    },
+    "jsearch_london": {
+      "results": 8,
+      "qualifying": 0,
+      "notes": "Aisel Health (pre-funding startup, rejected prior), Apply4U Campaign Platform (ad delivery mismatch), BlackRock/Goldman/JPMorgan/Citi banking VP titles, Elsevier/RELX (rejected prior for £63K)"
+    },
+    "jsearch_singapore": {
+      "results": 10,
+      "qualifying": 0,
+      "notes": "Confidential Solutions Eng (sales-facing), GIC AVP Data Eng (data eng domain), APJ Partner Solution Eng (sales), Cronos (crypto dealbreaker x2), Snowflake Partner Solution Eng (sales), Aspire Lifestyles (concierge), GIC Platform Eng (ESM/IT), Goldman Sachs (banking VP)"
+    },
+    "jsearch_tokyo": {
+      "results": 0,
+      "qualifying": 0,
+      "notes": "Zero results as expected for Tokyo exec eng queries via JSearch."
+    },
+    "adzuna_uk": {
+      "results": 15,
+      "qualifying": 0,
+      "notes": "All below £160K threshold: RELX £63K, BlackRock £77-129K, Citi £71-74K, Portfolio Group £150K, Reed £120-150K. Most are banking VP titles (BlackRock, Citi, Citigroup)."
+    },
+    "adzuna_de": {
+      "results": 2,
+      "qualifying": 0,
+      "notes": "Aiven AE (sales), Affinidi Director of Engineering (small/Web3-adjacent - rejected prior)."
+    },
+    "adzuna_au": {
+      "results": 0,
+      "qualifying": 0,
+      "notes": "Zero results for VP Engineering Sydney."
+    },
+    "adzuna_au_cto": {
+      "results": 15,
+      "qualifying": 0,
+      "notes": "Latitude IT Head of Eng/CTO (57 employees, below 200 min, rejected prior), BLUEBIRD/Antares/Optiver (rejected prior), Garvan (non-eng), mostly solutions architect, sales, customer success. Sierra Software Eng role not leadership level."
+    },
+    "mcf_cto": {
+      "results": 15,
+      "qualifying": 0,
+      "notes": "All previously seen/filtered: BIENE, NodeFlair, Manpower (staffing), GlobalTix, Kaneze, Randstad, Libeara, Oriental Remedies (x2), ChemOne, Peak Ocean, ST Engineering. All below comp threshold or wrong domain."
+    },
+    "mcf_vp": {
+      "results": 1,
+      "qualifying": 0,
+      "notes": "FNDR VP Eng at SGD 5,500-20K (below threshold, small startup — rejected prior)."
+    },
+    "websearch_target_companies": {
+      "qualifying": 0,
+      "notes": "No new qualifying roles at OpenAI, Anthropic, Google (India-based), Microsoft, Apple, Disney, Netflix, Sony, LinkedIn, Uber, Snap, Stripe, Airbnb, Spotify. Salesforce VP roles surfaced but SRE domain mismatch or India-based. Ashby/Greenhouse board search surfaced only small startups (Wispr Flow, Inorsa, Bjak)."
+    },
+    "websearch_tokyo_europe": {
+      "qualifying": 0,
+      "notes": "SyntheticGestalt (Tokyo) previously seen. No new qualifying leads in Amsterdam, Berlin, Zurich, Dublin. European exec AI market at target companies is dormant."
+    }
+  },
+  "total_raw_results": 90,
+  "new_after_dedup": 1,
+  "qualifying_after_filters": 1,
+  "jobs": [
+    {
+      "id": "waymo_7744053",
+      "source": "career_monitor",
+      "title": "Director of Engineering, London Site Lead",
+      "company": "Waymo",
+      "location": "London, England, United Kingdom",
+      "url": "https://careers.withwaymo.com/jobs?gh_jid=7744053",
+      "date_found": "2026-04-18",
+      "date_posted": "2026-04-17",
+      "salary": "£230,000–£242,000 GBP base",
+      "summary": "Lead Waymo's London site as Director of Engineering over the Simulator Team (ML engineers, software engineers, data scientists building state-of-the-art simulations for the Waymo Driver). Requirements: proven track record leading large engineering organizations in research-driven environments, deep ML/generative foundation models expertise, PhD/Masters in CS/ML/Robotics.",
+      "relevance_score": 9.0,
+      "feedback": null,
+      "feedback_reason": null,
+      "dedup_key": "waymo|director_of_engineering_london_site_lead|london_uk"
+    }
+  ]
+}
