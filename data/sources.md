@@ -248,6 +248,20 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-19: Twelfth run
+
+**Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
+
+**JSearch**: 38 results across LA/London/Singapore/Remote-AI/Tokyo. LA dominated by banking VPs (BlackRock, Citi, JPMorgan, Goldman) and sub-$350K roles at WSP (civil), PTR Global (aerospace), Pacific Western Bank (security), Stem ($250-300K), VirtualVocations (preconstruction). London: JPMorgan Markets CRM VP, Elsevier reposted, BNY Mellon SVP Full-Stack, Aisel Health. SG: all confidential/recruiter CTOs, Global CTO at OSW (previously rejected Chinese req), National-Security CTO (defense). Tokyo: 0 results as usual.
+
+**Adzuna**: London VP Eng + Head of Eng queries returned 30 results, all below £160K or staffing/recruiter postings (Portfolio Group £150K, Reed £120-150K, RF Recruitment £74K, Edison Smart £70K, TEC Partners £69K, Velocity Tech £83K, Bupa OH £68K, PSR Solutions £110-120K, techUK £60K, Grant Thornton £63K). Sydney VP Eng: 0 results.
+
+**MCF**: CTO query returned 15 results (all below SGD 25K threshold or previously seen — NodeFlair, GlobalTix, Kaneze, ChemOne, Oriental Remedies, Peak Ocean, Randstad). VP Eng returned 1 (FNDR, duplicate).
+
+**WebSearch**: All target companies checked. Disney VP Software Engineering in Glendale confirmed via WebFetch as previously-seen Addressable Advertising role (ad-delivery domain mismatch). Waymo Developer AI confirmed CLOSED. Waymo London Site Lead already seen (yesterday). No new roles at OpenAI, Anthropic, Apple, Microsoft, Disney, Sony, Netflix, Stripe, Airbnb, Uber, Snap, Spotify, Salesforce, LinkedIn. Europe/Canada/Tokyo markets unchanged.
+
+**Key takeaway**: Zero qualifying results. Market continues extremely thin at this level. Career monitor remains highest-signal source — Waymo London was the last hit and is now seen. Most large-company exec roles likely filled via retained search firms that don't post publicly.
+
 ### 2026-04-18: Eleventh run
 
 **Career Page Monitor**: Waymo posted new **Director of Engineering, London Site Lead** (Simulator Team). £230-242K GBP base. ML/sim-focused. Verified OPEN. First qualifying result from the career monitor in multiple runs.
