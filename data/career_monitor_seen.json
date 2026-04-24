@@ -742,5 +742,29 @@
     "company_key": "waymo",
     "is_target_company": true,
     "date_found": "2026-04-18"
+  },
+  {
+    "ats_id": "5184077008",
+    "title": "Head of ANZ, Applied AI",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5184077008",
+    "updated_at": "2026-04-24",
+    "company": "Anthropic",
+    "company_key": "anthropic",
+    "is_target_company": true,
+    "date_found": "2026-04-24"
+  },
+  {
+    "ats_id": "7812284",
+    "title": "Head of Fundraising, Airbnb.org",
+    "location": "Unknown",
+    "department": "",
+    "url": "https://careers.airbnb.com/positions/7812284?gh_jid=7812284",
+    "updated_at": "2026-04-22",
+    "company": "Airbnb",
+    "company_key": "airbnb",
+    "is_target_company": true,
+    "date_found": "2026-04-24"
   }
 ]

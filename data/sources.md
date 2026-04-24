@@ -248,6 +248,26 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-24: Thirteenth run
+
+**Career Page Monitor**: 13 companies checked. 2 new roles — Anthropic "Head of ANZ, Applied AI" (Sydney, verified Field CTO/pre-sales — filtered per learned prefs) and Airbnb "Head of Fundraising, Airbnb.org" (non-eng — filtered).
+
+**JSearch**: 40 results across LA/London/SG/Remote-AI/Tokyo. Usual pattern — LA dominated by banking/construction/hardware VPs, London by banking VP titles (BNY Mellon, State Street, Black Rock, JPMorgan, Citi, Jefferies), SG by confidential recruiter CTOs and Field CTO (Cognition) + crypto dealbreakers, Remote by below-threshold aggregator postings (Jobgether, Hexion, SitusAMC, Refinitiv). Tokyo 0 results as usual.
+
+**Adzuna**: London VP + Head of Eng (30 results) all below £160K or banking/staffing/non-eng. SG returned 2 (Ceffu crypto, UOB Infra IC).
+
+**MCF**: 15 + 1 results. Vocalbeats.AI new (SGD 40-45K/mo) but 51-200 employees — likely too small. Rest duplicates or below threshold.
+
+**WebSearch**: **Two qualifying roles found at Google** via direct google.com/about/careers indexing:
+  1. **Senior Engineering Director, AI Data Infrastructure** — $365-505K base, Mountain View, AI/ML infra, likely L8+/L9. Strong match.
+  2. **Senior Director, Engineering, Emerging Agents, Applied AI** — Google Senior Director band, Mountain View, GenAI agents for customer-interaction applications. Strong match.
+
+Disney VP Software Engineering Glendale reconfirmed as Addressable Advertising (duplicate reject). Waymo Director Simulation Evaluation CLOSED. SyntheticGestalt VP Eng Tokyo not accepting applications. ScienceLogic VP Skylar AI — not target, comp uncertain, ~500 employees.
+
+**Google verification challenge**: Google's careers portal is JS-rendered; WebFetch returns the page shell but cannot parse individual job content. Cross-verified via multiple independent WebSearch queries showing consistent role descriptions indexed on google.com (not aggregators). Flagged as UNCERTAIN via WebFetch; user should manually click through to confirm.
+
+**Key takeaway**: 2 qualifying roles, both at Google — first Google finds in over a week. WebSearch across target-company domains remains the highest-signal channel for roles not on Greenhouse/Ashby/Lever.
+
 ### 2026-04-19: Twelfth run
 
 **Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
