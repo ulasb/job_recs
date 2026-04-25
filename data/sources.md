@@ -248,6 +248,29 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-25: Fourteenth run
+
+**Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
+
+**JSearch**: ~50 results across LA/London/SG/Remote/Tokyo. LA dominated by IV.AI duplicates, AEG, civil/mechanical engineering (WSP, Infrastructure Engineering Inc), Voyager Technologies (defense — dealbreaker), Hadrian (hardware), Stem (below comp). London entirely banking VP titles (BNY Mellon multiple, Citi multiple, State Street, BlackRock + solutions/sales-facing). Singapore: confidential CTO/COO, recruiter postings (Talent Titans, Argyll Scott, Page Executive), petrochemical (Peak Ocean), small (Big-Foot), Web3/Libeara, OSW (Chinese-fluency req duplicate). Remote-AI: HPE program mgmt (PM not eng), CrowdStrike Sr Dir AI ($210-300K below), Granicus internal AI ($169-229K below), Carthage assistant role, IQVIA learning enablement, Jobgether BD/alliances, Dana-Farber healthcare, Adonis healthcare-small. Tokyo 0 results.
+
+**Adzuna**: London (30 results across two queries) all banking VPs (Citi, JPMorgan, Barclays) or below £160K (Apogee £82K, Resource Group £78K, Portfolio Group £150K, Keyrock crypto £88K, Walker Cole pharma, RF Recruitment £74K) or domain mismatches (electrical, BESS, pharmaceutical). Singapore: Ceffu (crypto), UOB (banking IC), Evo Commerce (small CPG).
+
+**MCF**: All Singapore results previously seen (NodeFlair, GlobalTix, Kaneze, Custera, Libeara, Vocalbeats, Randstad, FNDR) or below comp thresholds. ST Engineering (defense), Cloudflare Solutions Architect filtered.
+
+**WebSearch**: **Three new qualifying roles at Google** via direct google.com/about/careers indexing:
+  1. **VP, Workspace Drive** — $550K base, Sunnyvale/Boulder/NYC. 2B users, GenAI/Agentic AI/RAG focus, lead 300+ engineers. Strongest single-day match in any run. Application open until at least 2026-04-22.
+  2. **Senior Director, Engineering, Geo Maker** — Mountain View/Sunnyvale. Maps/Earth/BigQuery Analytics with GenAI-forward solutions. Strong consumer-tech + location-intelligence match (user has Foursquare VP Eng background).
+  3. **Senior Director, Engineering, Ecosystem Growth** — Sunnyvale/Kirkland/Tel Aviv. Sharing/Connection/Ecosystem Journeys/Growth — full-stack consumer infra. Strong match.
+
+Filtered Google roles (out of scope per learned prefs): VP Cloud Protection (security), Sr Dir ML Compiler (IC-adjacent), Sr Dir GCE Core Virtualization (systems eng), Sr Dir Data Center R&D (hardware), Sr Dir Hybrid/On-Premise Infra Cloud (borderline infra), Sr Dir Infrastructure Solutions Cloud (borderline infra), Sr Dir Platform Operations GDC (SRE-adjacent).
+
+No new qualifying roles at any other target company (Microsoft, Apple, Disney, Sony, Netflix, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify, Uber, Snap, Salesforce). Disney VP Software Engineering Glendale is the previously-rejected Addressable Advertising role. Tokyo market unchanged.
+
+**Google verification challenge** (consistent with 2026-04-24 run): Google's careers portal is JS-rendered; WebFetch returns the search results page shell, not individual job content. Cross-verified all 3 finalists via multiple independent WebSearch queries showing consistent role descriptions indexed on google.com (not aggregators). Flagged as UNCERTAIN; user should manually click through to confirm.
+
+**Key takeaway**: 3 qualifying roles, all at Google. Second consecutive day with multiple Google finds — direct WebSearch against google.com/about/careers continues to be the highest-signal channel for this profile. The VP, Workspace Drive role is the strongest single match in any run to date (exact title, $550K base, target company, 2B-user consumer scope, GenAI focus, 300+ eng team).
+
 ### 2026-04-24: Thirteenth run
 
 **Career Page Monitor**: 13 companies checked. 2 new roles — Anthropic "Head of ANZ, Applied AI" (Sydney, verified Field CTO/pre-sales — filtered per learned prefs) and Airbnb "Head of Fundraising, Airbnb.org" (non-eng — filtered).

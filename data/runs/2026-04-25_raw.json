@@ -1,0 +1,90 @@
+{
+  "run_date": "2026-04-25",
+  "sources_searched": [
+    "career_page_monitor (13 companies)",
+    "jsearch (LA, London, SG, Tokyo, Remote)",
+    "adzuna (UK VP+Head, SG)",
+    "mycareersfuture (CTO, VP Eng)",
+    "websearch (Google, Microsoft, Apple, Disney, Sony, Netflix, Anthropic, OpenAI, Waymo, Stripe, Tokyo)"
+  ],
+  "summary": {
+    "career_page_monitor": "13 companies checked, 0 new exec eng roles",
+    "jsearch_la": "10 results - banking VPs, civil/mechanical eng, small startups, all filtered",
+    "jsearch_london": "10 results - all banking VP titles (BNY Mellon, Citi, State Street, BlackRock) or seen (Aisel)",
+    "jsearch_sg": "10 results - logistics CTO, petrochemical CTO, healthcare CTO, crypto CTO, all filtered or seen",
+    "jsearch_tokyo": "0 results",
+    "jsearch_remote": "10 results - HPE program mgmt, CrowdStrike Sr Dir AI ($210-300K below threshold), Granicus internal AI ($169-229K below), Adonis (small), all filtered",
+    "adzuna_uk_vp": "15 results - sub-£160K, banking VPs (Citi, JPMorgan), staffing (Apogee £82K, Jack/Jill £120-150K), Portfolio Group £150K below threshold",
+    "adzuna_uk_head": "15 results - all sub-£120K or domain mismatch (pharmaceutical, electrical, BESS, banking)",
+    "adzuna_sg": "3 results - Ceffu (crypto dealbreaker), UOB Infra (banking IC), Evo Commerce (small CPG)",
+    "mcf_cto": "15 results - all below SGD 25K or seen (NodeFlair, GlobalTix, Kaneze, Custera, Libeara, Vocalbeats, ST Engineering, Cloudflare SA)",
+    "mcf_vp_eng": "1 result - FNDR (seen, low comp)",
+    "websearch_google": "Multiple new roles: VP Workspace Drive, Senior Director Geo Maker, Senior Director Ecosystem Growth (3 finalists). Plus filtered: VP Cloud Protection (security domain), Senior Director ML Compiler (IC-adjacent), Senior Director GCE Core Virtualization (systems eng), Senior Director Data Center R&D (hardware), Senior Director Hybrid Infra Cloud (borderline), Senior Director Infrastructure Solutions Cloud (borderline), Senior Director Platform Operations GDC (SRE-adjacent)",
+    "websearch_microsoft": "0 indexed via site search",
+    "websearch_apple": "0 indexed via site search",
+    "websearch_disney": "0 new",
+    "websearch_sony": "0 indexed",
+    "websearch_netflix": "0 VP/Director-level roles via search",
+    "websearch_anthropic": "Career monitor result was Field/GTM only (Head of ANZ); no new exec eng",
+    "websearch_openai": "Engineering Manager-level only on careers site",
+    "websearch_waymo": "Director London Site Lead (already seen 2026-04-18); ML/Sim/Commercialization Director roles already seen",
+    "websearch_tokyo": "SyntheticGestalt (closed), Robert Half EM-level, no new"
+  },
+  "finalists": [
+    {
+      "id": "google_vp_workspace_drive",
+      "source": "google_careers_websearch",
+      "title": "VP, Workspace Drive",
+      "company": "Google",
+      "location": "Sunnyvale, CA / Boulder, CO / New York, NY",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/87496114856436422-vp/",
+      "date_found": "2026-04-25",
+      "date_posted": "2026-04 (application open at least until 2026-04-22)",
+      "salary": "$550,000 base + bonus + equity + benefits",
+      "summary": "VP of Engineering for Workspace Drive — leads org responsible for product serving 2B+ users globally. Drive is evolving from storage solution into an AI-powered repository for the future of work. Required: leading globally-dispersed eng teams of 300+, 3+ yrs deploying GenAI in consumer products. Preferred: Agentic AI workflows, RAG architectures at petabyte scale.",
+      "relevance_score": 9.5,
+      "feedback": null,
+      "feedback_reason": null,
+      "dedup_key": "google|vp_workspace_drive|sunnyvale_ca"
+    },
+    {
+      "id": "google_sd_geo_maker",
+      "source": "google_careers_websearch",
+      "title": "Senior Director, Engineering, Geo Maker",
+      "company": "Google",
+      "location": "Mountain View, CA / Sunnyvale, CA",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/86929705172640454-senior-director/",
+      "date_found": "2026-04-25",
+      "date_posted": "2026-04",
+      "salary": "Google Senior Director band (~$370-550K base + bonus + equity per Glassdoor)",
+      "summary": "Leads engineering team building Google Maps Platform, Google Earth, and Analytics on BigQuery. Drives strategy and execution for GenAI-forward solutions across Geo (Consumer, Auto, RWM, RWJ, Ads, GR, GDM, Cloud). Inspires and grows team of engineering leaders. Required: 15+ yrs eng leadership, 5+ yrs technical management.",
+      "relevance_score": 8.5,
+      "feedback": null,
+      "feedback_reason": null,
+      "dedup_key": "google|senior_director_engineering_geo_maker|mountain_view_ca"
+    },
+    {
+      "id": "google_sd_ecosystem_growth",
+      "source": "google_careers_websearch",
+      "title": "Senior Director, Engineering, Ecosystem Growth",
+      "company": "Google",
+      "location": "Sunnyvale, CA / Kirkland, WA / Tel Aviv (preferred locations)",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/143477989298840262-senior-director/",
+      "date_found": "2026-04-25",
+      "date_posted": "2026-04",
+      "salary": "Google Senior Director band (~$370-550K base + bonus + equity per Glassdoor)",
+      "summary": "Senior Engineering Director leading large-scale full-stack communication infrastructure plus people/sharing infrastructure. Owns growth-oriented cross-product user experiences and data-oriented decision making. Multi-geo eng org; technical vision for Sharing & Connection, Ecosystem Journeys, and Growth across Google's user-facing products. Required: 10+ yrs eng leadership, mobile/distributed systems experience.",
+      "relevance_score": 8.0,
+      "feedback": null,
+      "feedback_reason": null,
+      "dedup_key": "google|senior_director_engineering_ecosystem_growth|sunnyvale_ca"
+    }
+  ],
+  "filtered_examples": {
+    "google_vp_cloud_protection": "Security engineering domain — out of scope per learned prefs",
+    "google_sd_ml_compiler": "ML compiler — IC-adjacent / publication-adjacent technical leadership",
+    "google_sd_gce_core_virtualization": "Systems engineering / hypervisor — out of scope per learned prefs",
+    "google_sd_data_center_rd": "Hardware/data center R&D — out of scope per learned prefs",
+    "google_sd_platform_operations_gdc": "Operations/SRE-adjacent — out of scope per learned prefs"
+  }
+}
