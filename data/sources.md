@@ -248,6 +248,26 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-26: Fifteenth run
+
+**Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
+
+**JSearch**: ~40 results across LA/London/SG/Remote/Tokyo. LA dominated by IV.AI duplicates, AEG, civil/mechanical/plumbing engineering (WSP), Voyager Technologies (defense), Hadrian (hardware), Pinterest VP Ads Quality (followed up via WebSearch — see below), Genpact AVP. London: BNY Mellon multiple, Citi multiple, State Street, Aisel Health duplicate, BlackRock solutions/sales. Singapore: Big-Foot, Peak Ocean (chemical), Manpower, Talent Titans, Libeara, Custera, Argyll Scott, Oriental Remedies, OSW (Chinese-fluency duplicate), Cognition (Field CTO duplicate). Remote-AI: ClosedWon, Duck Creek (insurance), ScienceLogic (rejected prior), Jobgether $100-125K, Hexion, Jack & Jill aggregator, SitusAMC $100-160K, Tango. Tokyo 0 results.
+
+**Adzuna**: London VP eng — banking VP titles (JPMorgan, Citi multiple) and sub-£160K (Apogee £82K, Portfolio Group CTO £150K, Stanford Black £108K, Snowflake £49K, Malt £80K). London Head of Eng — all sub-£120K (Walker Cole, Resource Group, ASA, Ec1, S&P Detection Eng, Keyrock crypto £88K, Barclays £59K, ih Smart Home Installer, trg Principal Eng £105K, Portfolio Group £150K, Uber Boat electrical, CV Consulting maintenance). SG: Techtanium CTO (no comp), Civils.ai full-stack, TE Connectivity Staff Eng, Oliver James VP Tech Strategy (recruiter), Atomatic Operations, Dell Associate, Newbridge sales, Elastic pre-sales, NCS AI Architect, Xendit AM, Mastercard Director TPM (PM). All filtered.
+
+**MCF**: All previously seen Singapore CTOs (NodeFlair, GlobalTix, Kaneze, Randstad, Libeara, Vocalbeats SGD 40-45K but small, Custera, ChemOne, Peak Ocean, ST Engineering ×2 below comp, Cloudflare Solutions). FNDR VP Eng duplicate.
+
+**WebSearch**: **Two qualifying roles**:
+  1. **Pinterest VP, Ads Quality Engineering** — Seattle/SF/Palo Alto/LA hybrid, $400–485K base + RSU. Lead 200+ AI/ML eng on monetization quality/relevance — STRONG domain bullseye for user's Google Ads Understanding background. Verified via LinkedIn (`linkedin.com/jobs/view/4404922421`); aggregators (pitchmeai, theladders) showed misleading $200–250K range. Posted 3 days ago. **First qualifying non-Google role in many runs.**
+  2. **Google Senior Director, Engineering, Google Design Platform** — Mountain View, $349–485K base + bonus + equity. Lead ~130-person eng org across multiple geographies on design system/components, includes AI-for-design (genUX, design-to-code, design agents). Indexed on google.com/about/careers; flagged UNCERTAIN due to JS-rendering verification limit.
+
+Filtered Google roles (out of scope): VP Silicon Eng (hardware), VP Cloud Protection (security), VP Eng Finance/Compliance/Governance (corporate IT — matches Databricks rejection), Sr Dir Data Integration (data eng — out of scope), Sr Dir AI Platform Cloud Security (security), Sr Dir ML Compiler (IC-adjacent), Sr Dir GCE Core Virtualization (systems), Sr Dir Hybrid/On-Premise Infra Cloud, Sr Dir Infra Solutions Cloud (infra), Sr Dir Platform Operations GDC (SRE-adjacent). **Google Sr Dir ML Developer Experience CONFIRMED CLOSED** today (page returns "Job not found. This job may have been taken down").
+
+No new qualifying roles at any other target company (Microsoft, Apple, Disney, Sony, Netflix, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Spotify, Uber, Snap, Salesforce, LinkedIn). Tokyo unchanged.
+
+**Key takeaway**: 2 qualifying roles. Pinterest VP Ads Quality is the most exciting non-Google find in many runs — exact domain match (ads ML/quality vs ad-delivery), strong scope (200+ engineers), comp clears threshold, target-tier consumer-tech employer. Reminder: aggregator salary ranges should be cross-verified on LinkedIn for US Ads/AI roles before filtering.
+
 ### 2026-04-25: Fourteenth run
 
 **Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
