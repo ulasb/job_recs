@@ -248,6 +248,29 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-27: Sixteenth run
+
+**Career Page Monitor**: 13 companies checked. **1 new exec engineering role**:
+  - **Spotify Director of Engineering, Experience** (Stockholm) — owns Engineering for "Identity & Investment" product area in Consumer Experience Mission, ~70-engineer org, core consumer experience across iOS/Android, target-company + target-city. Per Spotify's published ladder, Director on the EM track maps to L8. First qualifying career-monitor hit since Waymo London on 2026-04-18.
+
+**JSearch**: ~50 results across LA/London/SG/Remote-AI/Tokyo. Same patterns: LA dominated by Hadrian (hardware), OakTree Data Eng SVP, Jobot Network Eng Leader sub-$300K, Canonical distributed open-source. London = banking VPs (BNY Mellon multi, Citi multi) + Aisel Health early-stage. Singapore = Page Executive confidential, Accelcia blockchain (Web3 dealbreaker), NodeFlair/OSW duplicates. Remote-AI: FedEx Manager (below level), Relativity Space $245-336K (below comp), small startups. Tokyo 0 results as usual.
+
+**Adzuna**: London VP Eng — 15 results, all sub-£160K (Stanford Black £108K, Citi £85K, Snowflake EMEA Sales £49K, Malt Senior EM £79K, Malt Director £60K) or banking VPs or sales-facing. London Head of Eng — all sub-£160K (Portfolio Group £150K Castle Baynard, La Fosse interim £75K, RF Maintenance £73K, Tech4 sub-£70K, trg Principal £105K). Singapore: only UOB VP Infrastructure Engineer IC (banking infra, filtered).
+
+**MCF**: All previously seen Singapore CTOs (NodeFlair, ChemOne $18-20K SGD/mo, FNDR, APSN exec assistant, Eversafe AI Eng IC role).
+
+**WebSearch**: **Two qualifying roles**:
+  1. **Apple Director of Personalization, Apple Intelligence** (Cupertino) — $305-487K base, leads multidisciplinary teams across UI/ML/Infra defining personalized OS experiences for Apple Intelligence. Closes 2026-05-27. Verified OPEN via evenbreak.com mirror (jobs.apple.com is JS-rendered, blocks direct WebFetch). First Apple exec eng find of the project. Apple Director maps to L8-equivalent per learned prefs.
+  2. **Google Senior Director, Engineering, Merchant Shopping** ($349-485K, MTV/Reston/Atlanta) — Multi-year roadmap for Google Merchant Center, includes GenAI for merchants (Product Studio). UNCERTAIN due to Google JS rendering; cross-verified via independent WebSearch indexing.
+
+Filtered Google roles (out of scope per learned prefs): VP Cloud Protection (security), Sr Dir Hybrid/On-Premise Infra Cloud (infra), Sr Dir Infrastructure Solutions Cloud (infra), Sr Dir GCE Core Virtualization (systems), Sr Dir Data Integration (data eng). Previously presented and still open: Sr Dir Geo Maker, Sr Dir Ecosystem Growth, Sr Dir Emerging Agents Applied AI, VP Workspace Drive — all surfaced again on WebSearch but already in seen_jobs.
+
+Disney VP Software Eng Glendale = previously-rejected Addressable Advertising role. Sony Sr Dir Data Platform Eng = data eng (out of scope). No new exec roles at Microsoft, Pinterest, Snap, LinkedIn, Anthropic, OpenAI, Waymo, Stripe, Airbnb, Uber, Salesforce. Tokyo unchanged.
+
+**Verification learning**: evenbreak.com (UK accessible-employer feed) mirrored the Apple posting cleanly with full salary + closing date — useful fallback when Apple's JS-rendered ATS blocks WebFetch. Worth checking for future Apple roles.
+
+**Key takeaway**: 3 qualifying roles, all at distinct named target companies (Apple, Spotify, Google) — first three-target-company day in the project. Apple Director of Personalization is the strongest single match (exact AI/ML + personalization domain, fresh posting, leader-of-leaders scope, explicit close date). Spotify Stockholm reactivates the European-target pipeline.
+
 ### 2026-04-26: Fifteenth run
 
 **Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.

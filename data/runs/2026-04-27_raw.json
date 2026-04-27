@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-27",
+  "sources_checked": [
+    "career_page_monitor (13 companies)",
+    "jsearch (LA, London, Singapore, Remote-AI, Tokyo)",
+    "adzuna (London VP Eng, London Head of Eng, Singapore)",
+    "mycareersfuture (CTO, VP Engineering)",
+    "websearch (Google, Apple, Microsoft, Pinterest, Spotify, Disney/Sony, Anthropic/OpenAI)"
+  ],
+  "summary": {
+    "career_monitor_new": 1,
+    "jsearch_results": 50,
+    "adzuna_results": 31,
+    "mcf_results": 18,
+    "qualifying_after_filters": 3
+  },
+  "qualifying_jobs": [
+    {
+      "id": "apple_200659704_director_personalization",
+      "source": "websearch",
+      "title": "Director of Personalization, Apple Intelligence",
+      "company": "Apple",
+      "location": "Cupertino, California, US",
+      "url": "https://jobs.apple.com/en-us/details/200659704-0836/director-of-personalization-apple-intelligence?team=MLAI",
+      "date_found": "2026-04-27",
+      "date_posted": "2026-04",
+      "salary": "$305,000-$487,200 base",
+      "summary": "Lead a diverse team responsible for defining and building personalized Apple Intelligence experiences from ML models to infrastructure and UI. Oversees managers leading multidisciplinary engineering teams across multiple technical domains. Defines and drives technical strategy for personalized OS experiences across apps, services, and system features. Closes May 27 2026.",
+      "verification": "OPEN (verified via evenbreak.com mirror — Apple jobs.apple.com is JS-rendered)",
+      "is_remote": false,
+      "dedup_key": "apple|director_of_personalization_apple_intelligence|cupertino_california_us"
+    },
+    {
+      "id": "google_125480238955012806_sr_dir_merchant_shopping",
+      "source": "websearch",
+      "title": "Senior Director, Engineering, Merchant Shopping",
+      "company": "Google",
+      "location": "Mountain View, California, US (also Reston VA, Atlanta GA)",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/125480238955012806-senior-director/",
+      "date_found": "2026-04-27",
+      "date_posted": "2026-04",
+      "salary": "$349,000-$485,000 base + bonus + equity",
+      "summary": "Responsible for the multi-year roadmap, strategy, and execution of products that form the foundation of the merchant experience. Leads engineering team to build and scale marquee products like Google Merchant Center. Develops innovative generative AI experiences such as Google Product Studio. Manages critical partnerships with the retail ecosystem.",
+      "verification": "UNCERTAIN (google.com careers is JS-rendered — cross-verified via independent WebSearch indexing the role on google.com/about/careers)",
+      "is_remote": false,
+      "dedup_key": "google|senior_director_engineering_merchant_shopping|mountain_view_california_us"
+    },
+    {
+      "id": "spotify_fb7929b7_director_eng_experience",
+      "source": "career_monitor",
+      "title": "Director of Engineering, Experience",
+      "company": "Spotify",
+      "location": "Stockholm, Sweden",
+      "url": "https://jobs.lever.co/spotify/fb7929b7-73b8-43fc-b6a0-888e96722617",
+      "date_found": "2026-04-27",
+      "date_posted": "2026-04",
+      "salary": "Not listed (Spotify Director ~SEK 1.0M+ base, ~$531K avg total per Glassdoor)",
+      "summary": "Own the Engineering function of the 'Identity & Investment' product area in the Consumer Experience Mission — a team of ~70 engineers responsible for the adaptive product experience across iOS and Android that makes Spotify better the more it's used. Define and implement product/tech strategy supporting the goal of 1B+ users. Per Spotify's career ladder, Director on the Engineering Manager track maps to L8.",
+      "verification": "OPEN (verified via Lever API pull from career monitor; cross-confirmed via WebSearch showing role indexed on multiple job aggregators)",
+      "is_remote": false,
+      "dedup_key": "spotify|director_of_engineering_experience|stockholm_sweden"
+    }
+  ],
+  "filtered_summary": {
+    "career_monitor": "1 new (Spotify Director of Engineering, Experience Stockholm — qualifies)",
+    "jsearch_la": "Hadrian VP test eng (hardware), OakTree SVP Data Eng (data eng — out of scope), Jobot Network Eng Leader ($200-300K below threshold), Canonical Director (small global open-source). All filtered.",
+    "jsearch_london": "Banking VP titles dominant (BNY Mellon, Citi multi). Aisel Health VP Eng (early-stage health AI, small). All filtered.",
+    "jsearch_remote": "Mostly small companies, FedEx Mgr (below level), Relativity Space ($245-336K — below comp). All filtered.",
+    "jsearch_singapore": "Page Executive confidential CTO, Accelcia Blockchain CTO (Web3 dealbreaker), NodeFlair (dup), OSW (Chinese-fluency dup). All filtered.",
+    "jsearch_tokyo": "0 results.",
+    "adzuna_london_vp_eng": "Banking VPs (Citi multi, Stanford Black, JPMorgan), small startups (Aisel Health, Attio dup), staffing (Snowflake EMEA Sales below £50K, Malt Senior EM £80K, Malt Eng Director £61K — all below £160K threshold).",
+    "adzuna_london_head_of_eng": "All sub-£160K (Portfolio Group £150K Castle Baynard, RF Maintenance £74K, La Fosse interim £75K AI Transformation, Tech4 sub-£70K, trg Principal £105K).",
+    "adzuna_singapore": "Only UOB VP Infrastructure Engineer IC role (banking + infra IC, filtered).",
+    "mcf": "All previously seen Singapore CTOs at low comp (NodeFlair, ChemOne, FNDR, APSN exec assistant, Eversafe AI Engineer DLP IC role).",
+    "websearch_google": "Filtered: VP Cloud Protection (security), Sr Dir Infrastructure Solutions (infra), Sr Dir Data Integration (data eng), Sr Dir Hybrid Infrastructure (infra), Sr Dir GCE Core Virtualization (systems), Sr Dir Geo Maker / Ecosystem Growth / Emerging Agents (all previously presented). Kept: Sr Dir Merchant Shopping (NEW, qualifies).",
+    "websearch_apple": "Sr Director ML Engineering & Innovation (previously rejected per learned prefs), ML Director Apple Services Search (previously seen). Kept: Director of Personalization Apple Intelligence (NEW, qualifies).",
+    "websearch_microsoft": "No specific exec eng VP/Sr Dir openings surfaced. Microsoft AI hiring is mostly IC/PM at this level via WebSearch.",
+    "websearch_pinterest_snap_linkedin": "No new exec eng roles. Pinterest VP Ads Quality (presented 2026-04-26).",
+    "websearch_disney": "VP Software Engineering Glendale = previously rejected Addressable Advertising role.",
+    "websearch_sony": "Sr Dir Data Platform Engineering (data eng — out of scope per learned prefs).",
+    "websearch_anthropic_openai": "No new exec eng/leadership beyond previously surfaced roles."
+  }
+}

@@ -766,5 +766,17 @@
     "company_key": "airbnb",
     "is_target_company": true,
     "date_found": "2026-04-24"
+  },
+  {
+    "ats_id": "fb7929b7-73b8-43fc-b6a0-888e96722617",
+    "title": "Director of Engineering, Experience",
+    "location": "Stockholm",
+    "department": "Engineering",
+    "url": "https://jobs.lever.co/spotify/fb7929b7-73b8-43fc-b6a0-888e96722617",
+    "updated_at": "",
+    "company": "Spotify",
+    "company_key": "spotify",
+    "is_target_company": true,
+    "date_found": "2026-04-27"
   }
 ]

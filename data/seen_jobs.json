@@ -3566,5 +3566,53 @@
     "feedback": null,
     "feedback_reason": null,
     "dedup_key": "google|senior director engineering google design platform|mountain view"
+  },
+  {
+    "id": "apple_200659704_director_personalization",
+    "source": "websearch",
+    "title": "Director of Personalization, Apple Intelligence",
+    "company": "Apple",
+    "location": "Cupertino, California, US",
+    "url": "https://jobs.apple.com/en-us/details/200659704-0836/director-of-personalization-apple-intelligence?team=MLAI",
+    "date_found": "2026-04-27",
+    "date_posted": "2026-04",
+    "salary": "$305,000-$487,200 base",
+    "summary": "Lead a diverse team responsible for defining and building personalized Apple Intelligence experiences from ML models to infrastructure and UI. Oversees managers leading multidisciplinary engineering teams across multiple technical domains. Defines and drives technical strategy for personalized OS ex",
+    "relevance_score": 9.0,
+    "feedback": null,
+    "feedback_reason": null,
+    "dedup_key": "apple|director_of_personalization_apple_intelligence|cupertino_california_us"
+  },
+  {
+    "id": "google_125480238955012806_sr_dir_merchant_shopping",
+    "source": "websearch",
+    "title": "Senior Director, Engineering, Merchant Shopping",
+    "company": "Google",
+    "location": "Mountain View, California, US (also Reston VA, Atlanta GA)",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/125480238955012806-senior-director/",
+    "date_found": "2026-04-27",
+    "date_posted": "2026-04",
+    "salary": "$349,000-$485,000 base + bonus + equity",
+    "summary": "Responsible for the multi-year roadmap, strategy, and execution of products that form the foundation of the merchant experience. Leads engineering team to build and scale marquee products like Google Merchant Center. Develops innovative generative AI experiences such as Google Product Studio. Manage",
+    "relevance_score": 7.5,
+    "feedback": null,
+    "feedback_reason": null,
+    "dedup_key": "google|senior_director_engineering_merchant_shopping|mountain_view_california_us"
+  },
+  {
+    "id": "spotify_fb7929b7_director_eng_experience",
+    "source": "career_monitor",
+    "title": "Director of Engineering, Experience",
+    "company": "Spotify",
+    "location": "Stockholm, Sweden",
+    "url": "https://jobs.lever.co/spotify/fb7929b7-73b8-43fc-b6a0-888e96722617",
+    "date_found": "2026-04-27",
+    "date_posted": "2026-04",
+    "salary": "Not listed (Spotify Director ~SEK 1.0M+ base, ~$531K avg total per Glassdoor)",
+    "summary": "Own the Engineering function of the 'Identity & Investment' product area in the Consumer Experience Mission \u2014 a team of ~70 engineers responsible for the adaptive product experience across iOS and Android that makes Spotify better the more it's used. Define and implement product/tech strategy suppor",
+    "relevance_score": 8.5,
+    "feedback": null,
+    "feedback_reason": null,
+    "dedup_key": "spotify|director_of_engineering_experience|stockholm_sweden"
   }
 ]
