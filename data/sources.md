@@ -248,6 +248,20 @@ _Updated after each run._
 
 **Key takeaway**: Zero qualifying results for the sixth consecutive day. Disney VP Addressable Advertising was the only new role at a target company but domain is a mismatch. Market continues extremely thin for publicly posted exec eng roles at this level.
 
+### 2026-04-28: Seventeenth run
+
+**Career Page Monitor**: 13 companies checked. 0 new exec engineering roles.
+
+**JSearch**: 38 results across LA/London/SG/Remote-AI/Tokyo. Same patterns. LA dominated by Reku duplicates, IV.AI duplicates, Voyager (defense), Pinterest VP Ads Quality (duplicate of Seattle posting from 2026-04-26 with location "Remote"), Everest Search supply chain, Thiozen, Hadrian. London entirely banking VPs (BNY Mellon multi, Citi multi, JPMorgan, State Street, "Professional" recruiter postings) plus Aisel Health duplicate. Singapore: BCW DLT (Web3), Field CTO Circles, Krisvconsulting crypto, OSW Global CTO (Chinese-fluency duplicate), Libeara (Web3), Argyll Scott recruiter, Page Executive confidential, NodeFlair/Peak Ocean/Oriental Remedies duplicates. Remote-AI: Duck Creek (insurance), Impiricus (small), ClosedWon (small), League $258-322K (below comp), FutureFeed (cyber/compliance — out of scope), Lincoln Financial (PM), Axos Bank (banking IT), Quickswoop (opaque). Tokyo 0 results as usual.
+
+**Adzuna**: London VP Eng — 15 results, banking VPs (Citi/Citigroup/JPMorgan multi) and sub-£160K (Apogee £82K duplicate, Sanogenetics £120-150K, Stanford Black £108K, Snowflake EMEA Sales £49K, Malt SEM £79K, Portfolio Group £150K duplicate). London Head of Eng — all sub-£160K (Harrington Starr £118-119K multi, Tria Recruitment £95K, ASA £70-75K, Keyrock £87K crypto, Resource Group £78K duplicate, S&P Detection Eng £73-80K, Barclays £59K, La Fosse interim £75K). Singapore: Hays AI Security (out of scope), Ceffu (crypto), UOB Infra IC (banking), Evo Commerce duplicate.
+
+**MCF**: All previously seen (NodeFlair, GlobalTix, Kaneze, ChemOne, Custera, Vocalbeats, Libeara, Randstad, ST Engineering, Cloudflare Solutions, Eversafe, FNDR — duplicates or below comp). Codex Solutions CTO new but SGD 13-23K/mo (below threshold).
+
+**WebSearch**: **SERVICE OUTAGE.** All WebSearch and WebFetch calls returned `Prompt is too long` or `529 Overloaded` for the entire run, including from minimal-context sub-agents. Confirmed reproducible. Target-company exec-eng research (Google, Apple, Microsoft, Salesforce, LinkedIn, Pinterest, Disney/Sony/Netflix/Uber/Snap, Tokyo English boards, London exec, Heidrick public boards) could not be performed. One-day backfill required next run.
+
+**Key takeaway**: 0 qualifying roles. WebSearch outage is the major caveat — given that Google/Apple/Pinterest finds in the past three runs all came via direct google.com/apple.com indexing, today's API-only sweep was always going to be thin. Re-attempt WebSearch coverage tomorrow.
+
 ### 2026-04-27: Sixteenth run
 
 **Career Page Monitor**: 13 companies checked. **1 new exec engineering role**:
